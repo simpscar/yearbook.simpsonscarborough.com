@@ -1,0 +1,50 @@
+---
+const { images, class: className, ...attributes } = Astro.props
+---
+<ul
+  x-data="Pile"
+  class:list={['relative w-[16rem] xs:w-[22rem] sm:w-[32.625rem] aspect-square', images.length > 1 && 'cursor-pointer', className]}
+  {...attributes}
+  @click="next"
+>
+  {images.map((image, index) => <li
+    class="
+      absolute w-full h-full flex items-center justify-center
+      [&:nth-child(4n+1)]:rotate-[-7.77deg]
+      [&:nth-child(4n+2)]:rotate-[0deg]
+      [&:nth-child(4n+3)]:rotate-[9.09deg]
+      [&:nth-child(4n)]:rotate-[0deg]
+    "
+    style={{ zIndex: -index }}
+  >
+    <img class="select-none w-full h-full object-cover origin-[200%_100%] duration-300" loading="lazy" {...image} />
+  </li>)}
+</ul>
+
+<script>
+import Alpine from 'alpinejs'
+
+Alpine.data('Pile', () => ({
+  items: null,
+  init () {
+    this.items = [...this.$el.querySelectorAll('li')]
+  },
+  next () {
+    if (this.items.length <= 1) {
+      return
+    }
+
+    const [item] = this.items
+    const img = item.querySelector('img')
+
+    img.addEventListener('transitionend', () => {
+      item.style.zIndex = parseInt(item.style.zIndex) - this.items.length
+      img.style.transform = ''
+    }, { once: true })
+
+    img.style.transform = 'rotate(45deg)'
+
+    this.items.push(this.items.shift())
+  }
+}))
+</script>

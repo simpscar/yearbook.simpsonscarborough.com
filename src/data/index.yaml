@@ -1,0 +1,274 @@
+letter:
+  heading: 'A letter from our #1 Jason'
+  quoteMarks: false
+  quotes:
+    - text: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      cite: |
+        Jason Simon
+        Partner & CEO
+freshmen:
+  heading: Class of 2024
+  sections:
+    - heading: 'Meet the _Fresh_men'
+      cards:
+        - text: |
+            Murray Simpson
+            Vice President, Growth (Growth)
+            Brooklyn, New York 
+          image:
+            src: /images/people/murray-simpson.webp
+        - text: |
+            Griffin Scarborough
+            Junior Analyst (RAI)
+            New York, New York 
+          image:
+            src: /images/people/griffin-scarborough.webp
+        - text: |
+            Kristen Blake
+            Resource Manager (Operations)
+            Hampton, Georgia 
+          image:
+            src: /images/people/kristen-blake.webp
+        - text: |
+            Charles Hall
+            Account Director (Accounts)
+            Astoria, New York 
+          image:
+            src: /images/people/charles-hall.webp
+        - text: |
+            Marchantia Ivey
+            Associate Project Manager (Project Management Office)
+            Brandywine, Maryland 
+          image:
+            src: /images/people/marchantia-ivey.webp
+        - text: |
+            Jonathan Adams
+            Senior Web Developer (Engineering)
+            Sacramento, California  
+          image:
+            src: /images/people/jonathan-adams.webp
+        - text: |
+            Katlin Swisher
+            Director, Strategy Planning (Strategy)
+            Morgantown, West Virginia 
+          image:
+            src: /images/people/katlin-swisher.webp
+        - text: |
+            Ben Loeffler
+            Solutions Architect (Engineering)
+            Los Angeles, California 
+          image:
+            src: /images/people/ben-loeffler.webp
+        - text: |
+            Zach Wilke
+            Senior Art Director (Creative)
+            Columbus, Ohio 
+          image:
+            src: /images/people/zach-wilke.webp
+        - text: |
+            Mandy Howard
+            Senior Project Manager (Project Management Office)
+            Smyrna, Georgia 
+          image:
+            src: /images/people/mandy-howard.webp
+        - text: |
+            Joe Taphorn
+            Media Manager (Strategy)
+            Greenville, South Carolina 
+          image:
+            src: /images/people/joe-taphorn.webp
+        - text: |
+            Bilal Sheik
+            Senior Writer (Creative)
+            Knoxville, Tennessee 
+          image:
+            src: /images/people/bilal-sheik.webp
+        - text: |
+            Fred Demarest
+            Director, Partnerships (Growth)
+            Cary, North Carolina 
+          image:
+            src: /images/people/fred-demarest.webp
+        - text: |
+            Kristen Tiernan
+            Associate Project Manager (Project Management Office)
+            Simpsonville, South Carolina 
+          image:
+            src: /images/people/kristen-tiernan.webp
+        - text: |
+            Keith Warburg
+            Account Director (Accounts)
+            Hahira, Georgia 
+          image:
+            src: /images/people/keith-warburg.webp
+        - text: |
+            Arham Anwar
+            Data Analyst (RAI)
+            New Market, Maryland 
+          image:
+            src: /images/people/arham-anwar.webp
+        - text: |
+            Chase Corey
+            Partnerships Manager (Growth)
+            Winter Park, Florida 
+          image:
+            src: /images/people/chase-corey.webp
+        - text: |
+            Jaemi Graham
+            Senior Project Manager (Project Management Office)
+            Kennesaw, Georgia 
+          image:
+            src: /images/people/jaemi-graham.webp
+        - text: |
+            Ashlyn Neiffer
+            Senior Designer (Growth)
+            Lansdale, Pennsylvania 
+          image:
+            src: /images/people/ashlyn-neiffer.webp
+        - text: |
+            Kelsey Lavine
+            Senior UI Designer (Interactive)
+            Tucson, Arizona 
+          image:
+            src: /images/people/kelsey-lavine.webp
+seniors:
+  heading: Our Super Seniors
+  sections:
+    - heading: '5 _Years_ of Service'
+      cards:
+        - text: | 
+            Dan Moore
+            Senior UX Designer
+          image:
+            src: /images/people/dan-moore.webp
+        - text: | 
+            Bob Rafferty
+            Executive Vice President & Partner 
+          image:
+            src: /images/people/bob-rafferty.webp
+        - text: | 
+            Julia Cwynar
+            Project Manager  
+          image:
+            src: /images/people/julia-cwynar.webp
+        - text: | 
+            Marguerite Moore
+            Associate Director, Brand & Integrated Strategy 
+          image:
+            src: /images/people/marguerite-moore.webp
+    - heading: '7 _Years_ of Service'
+      cards:
+        - text: |
+            Sara Abtahi
+            Research Analyst 
+          image:
+            src: /images/people/sara-abtahi.webp
+        - text: |
+            Hira Siddiqui
+            Associate Director, Research
+          image:
+            src: /images/people/hira-siddiqui.webp
+    - heading: '10 _Years_ of Service'
+      cards:
+        - text:
+            Jason Simon
+            CEO & Partner 
+          image:
+            src: /images/people/jason-simon.webp
+quotes:
+  - text: I’m Marcus — I wake up, I put on a v-neck.
+    name: Chelsea Woodard
+    title: Operations
+  - text: Ask GPT what custom GPT is.
+    name: Reya Calistes
+    title: Research, Analytics & Insights 
+  - text: Talk soon, your best friend, Steve. <- I won’t really sign off my email this way.
+    name: Steve App
+    title: Growth
+  - text: 'Used logo guidelines where it’s like: ‘we’ll send someone to your house if you use this wrong’.'
+    name: Tim Meyer
+    title: Interactive 
+  - text: Not a Ruth's Chris taste with a McDonald's budget.
+    name: Dana Anthony
+    title: Project Management Office 
+  - text: Excuse me, I'm very snotty. In many ways.
+    name: Andrea Kruszka
+    title: Accounts 
+  - text: She’s playing Checkers; I'm playing Call of Duty.
+    name: Rex Stancliff
+    title: Project Management Office 
+  - text: A bird pooped on my computer and I have nothing to clean it off.
+    name: Shannon Berg
+    title: Project Management Office 
+  - text: I want to be mansplained by you, Corynn. Forever.
+    name: Jason Shough
+    title: Creative 
+moments:
+  - date: 2024-01-18
+    heading: We witnessed not tricks, but Illusions at our first (and last) team Magic Show. 
+  - date: 2024-02-17
+    heading: Learned of our lore during Founders’ Day. 
+  - date: 2024-02-28
+    heading: Revamped and reimagined our fifth Higher Ed CMO Study  
+  - date: 2024-05-09
+    heading: Reflected, strategized, and energized at the Growth Area Retreat. 
+  - date: 2024-06-03
+    heading: Decked out in D.C. for the PMO Retreat. 
+  - date: 2024-06-11
+    heading: Redefined community, collaboration, and success at CMOLab. 
+  - date: 2024-06-26
+    heading: Did some R&D in ATL at the Research, Analytics & Insights Retreat.
+  - date: 2024-06-27
+    heading: Grew & goal-planned at the People & Culture Retreat. 
+  - date: 2024-07-22
+    heading: Bonded IRL at the Interactive Retreat. 
+  - date: 2024-07-28
+    heading: Built stronger relationships at the Accounts Retreat. 
+  - date: 2024-08-01
+    heading: Problem solved at the Engineering Retreat.  
+  - date: 2024-08-12
+    heading: Got insightful in-person at the Strategy Area Retreat. 
+  - date: 2024-08-21
+    heading: Cleared our minds and the Rage Room at the Creative Area Retreat. 
+  - date: 2024-10-18
+    heading: Went all out all day and night at the All Agency Retreat. 
+  - date: 2024-11-10
+    heading: Brought down the house in Vegas at the 2024 AMA.  
+testimonials:
+  scheme: dark
+  heading: 'We say we. And for results, clients say SimpsonScarbough. <span class="font-normal">Here’s why:</span>'
+  quotes:
+    - text: Truly, I AM BLOWN AWAY. This is exactly where we need to be. Thank you for taking all of the feedback and incorporating it, you guys absolutely killed it. It’s all coming together. 
+      cite: University of North Florida 
+    - text: |
+        We have received SO many compliments on the branding – visual and messaging – which has been really great and I wanted to pass along of course.  
+        
+        But I also have to tell you how very much fun it was to take these things we worked on together and bring them to the world. It was incredibly fulfilling and meaningful to me professionally so thank you all for your great work – for giving us something to put out there we can be so proud of! 
+      cite: University of Montana Foundation  
+    - text: I'm really, really pleased. There is a lot to love here (no pun intended)...It's really creative and pushing beyond the stale stuff you see in higher ed” 
+      cite: University of Colorado 
+    - text: The way you reframed some of the challenges for us is so helpful. It's great to see our SEO work is working! 
+      cite: GW Nursing  
+    - text: The brand anthem video is just brilliant and beautiful. All the campus community loved it. From my standpoint, this will definitely stand out in the sea of sameness. 
+      cite: Baylor University 
+    - text: You all captured as much feedback as you possibly could to get here. Two thumbs up from me. 
+      cite: Cal State Channel Islands 
+    - text: |
+        You hit the ball out of the park — what that means is you brought branding, vision, and a major fundraising campaign into a coordinated effort. Something not easily accomplished in this space. 
+
+        When the Provost (and other academics) starts speaking in brand language and dropping, ‘Look to Michigan’ into their talk tracks, you've hit a grand slam. 
+      cite: University of Michigan 
+    - text: I couldn’t be more pleased with the outcomes from our branding engagement. We have a new way of expressing the Emory brand that feels natural and authentic to our internal stakeholders…I knew immediately we had hit on something special. 
+      cite: Emory University 
+    - text: |
+        Working with SimpsonScarborough has been a transformative experience for our college. Their attentiveness to our feedback and willingness to incorporate every nuance of our brand vision made them feel less like an agency and more like a trusted partner who had worked with us for years.  
+
+        Thanks to their guidance, the positive changes we’ve seen in our brand's presence are undeniable. We feel more aligned with our brand and its personality than ever, and SimpsonScarborough’s support continues to reinforce our success. 
+      cite: SoLAcc 

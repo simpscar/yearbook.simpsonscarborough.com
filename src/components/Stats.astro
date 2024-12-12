@@ -1,0 +1,66 @@
+<section x-data="Stats" class="stats bg-midnight">
+  <div class="container py-10 flex flex-col gap-y-2.5">
+    <hgroup class="text-white text-[1.375rem] leading-[1.625rem] text-center">
+      <h2 class="font-bold">It Starts With Data</h2>
+      <p>Because of course it does.</p>
+    </hgroup>
+    <ul
+      class="contents
+      [&>li]:text-[1.75rem] [&>li]:leading-[1.201] [&>li]:font-bold [&>li]:tracking-[-0.04em]
+      xs:[&>li]:text-[2.5rem]
+      sm:[&>li]:text-[4rem]
+      md:[&>li]:text-[4.5rem]
+      lg:[&>li]:text-[6rem]
+      xl:[&>li]:text-[8rem]
+      2xl:[&>li]:text-[9rem]"
+    >
+      <li class="text-304">500k+ Miles Travelled</li>
+      <li class="text-7487 text-right">754 Tango Cards Sent</li>
+      <li class="text-process-yellow-50">17 Special Doorstep Deliveries</li>
+      <li class="text-1895 text-center">649 Minutes in All Agency Meetings</li>
+      <li class="text-2344 text-right">83 Unique Fascinate Archetypes</li>
+      <li class="text-304">14 Promotions</li>
+      <li class="text-7487">11 Conferences Attended</li>
+      <li class="text-process-yellow-50">
+        2,600+ Registrants for 6 Agency Webinars
+      </li>
+      <li class="text-1895 text-center">421 Drink Tickets Distributed</li>
+    </ul>
+  </div>
+</section>
+
+<script>
+  import Alpine from 'alpinejs'
+  import { gsap } from 'gsap'
+
+  Alpine.data('Stats', () => ({
+    init() {
+      for (const el of this.$el.querySelectorAll('li')) {
+        el.innerHTML = el.innerText
+          .split('')
+          .map((letter, index) =>
+            /\S/.test(letter)
+              ? `<span class="opacity-0">${letter}</span>`
+              : letter
+          )
+          .join('')
+
+        gsap
+          .timeline({
+            scrollTrigger: {
+              trigger: el,
+              start: 'top center',
+              end: 'top center',
+              once: true,
+            },
+          })
+          .to(el.querySelectorAll('span'), {
+            opacity: 1,
+            stagger: 0.05,
+            duration: 0,
+            ease: 'none',
+          })
+      }
+    },
+  }))
+</script>

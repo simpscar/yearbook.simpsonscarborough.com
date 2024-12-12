@@ -1,0 +1,16 @@
+---
+const { class: className, scheme = 304, ...props } = Astro.props
+---
+<a
+  class:list={[
+    'leading-[1.8125rem] text-[1.5rem] tracking-[-0.06em] px-[1.875rem] py-[1.25rem] inline-block rounded-full flex gap-x-2.5 w-max font-bold max-w-full text-center ',
+    {
+      304: 'bg-304 text-midnight hover:bg-midnight hover:text-white',
+      midnight: 'bg-midnight text-white hover:bg-304 hover:text-midnight'
+    }[scheme],
+    className
+  ]},
+  {...props}
+>
+  <slot />
+</a>

@@ -1,0 +1,91 @@
+---
+import { marked } from 'marked'
+
+const { heading, quoteMarks = true, quotes, scheme = 'light' } = Astro.props
+---
+
+<section
+  id="letter"
+  class:list={{
+    light: '',
+    dark: 'bg-midnight',
+  }[scheme]}
+>
+  <div class="container py-20">
+    <div class="max-w-[38.125rem] mx-auto space-y-10">
+      <header>
+        {
+          heading && (
+            <h2
+              class:list={[
+                'text-[1.375rem] font-bold',
+                {
+                  light: 'text-blue',
+                  dark: 'text-white',
+                }[scheme],
+              ]}
+              set:html={heading}
+            />
+          )
+        }
+      </header>
+      <hr
+        class:list={[
+          'border-t-2',
+          {
+            light: 'border-blue',
+            dark: 'border-white',
+          }[scheme],
+        ]}
+      />
+      {
+        quotes.map(({ text, cite }, index) => (
+          <blockquote class="space-y-2.5">
+            {quoteMarks && <svg
+              width="33"
+              height="20"
+              class={
+                [
+                  'fill-304',
+                  'fill-blue',
+                  'fill-2344',
+                  'fill-process-yellow-50',
+                  'fill-7487',
+                  'fill-7627',
+                  'fill-2010',
+                  'fill-304',
+                  'fill-1895',
+                ][index % 9]
+              }
+            >
+              <path d="M16.584 0 11.39 20H0L8.208 0zM33 0l-5.193 20h-11.39L24.54 0z" />
+            </svg>}
+            <div
+              class:list={[
+                '[&>p]:text-[1.375rem] space-y-[1.375rem]',
+                {
+                  light: '[&>p]:text-midnight',
+                  dark: '[&>p]:text-white',
+                }[scheme],
+              ]}
+              set:html={marked.parse(text)}
+            />
+            {cite && (
+              <footer
+                class=""
+                class:list={[
+                  'text-[1.5rem] font-bold tracking-[-0.04em]',
+                  {
+                    light: 'text-midnight',
+                    dark: 'text-white',
+                  }[scheme],
+                ]}
+                set:html={cite.split('\n').join('<br>')}
+              />
+            )}
+          </blockquote>
+        ))
+      }
+    </div>
+  </div>
+</section>
