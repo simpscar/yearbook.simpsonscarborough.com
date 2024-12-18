@@ -1,22 +1,28 @@
 ---
 const { heading, sections } = Astro.props
 ---
+
 <section x-data="Cards" class="bg-gradient-to-t from-gray-fog-25">
   <div class="container py-10 space-y-2.5">
     <h2
       class="text-[1.375rem] leading-[1.375rem] font-bold text-midnight text-center"
       set:text={heading}
     />
-    {sections && sections.length && <div class="space-y-2.5">
-      {sections.map(({ heading, cards }) => <section class="pb-[2.5625rem]">
-        <h3
-          class="text-[2rem] xs:text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[8rem] 2xl:text-[9rem] font-bold leading-[1] text-center text-midnight pt-[1.375rem]"
-          set:html={heading.replace(
-            /(\*|_)(.*?)\1/g,
-            '<span class="italic font-serif">$2</span>'
-          )}
-        />
-        {cards && cards.length && <ul class="
+    {
+      sections && sections.length && (
+        <div class="space-y-2.5">
+          {sections.map(({ heading, cards }) => (
+            <section class="pb-[2.5625rem]">
+              <h3
+                class="text-[2rem] xs:text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[8rem] 2xl:text-[9rem] font-bold leading-[1] text-center text-midnight pt-[1.375rem]"
+                set:html={heading.replace(
+                  /(\*|_)(.*?)\1/g,
+                  '<span class="italic font-serif">$2</span>'
+                )}
+              />
+              {cards && cards.length && (
+                <ul
+                  class="
           grid grid-flow-dense gap-x-4 gap-y-[2.5625rem]
           sm:mt-[-1rem] md:mt-[-1.25rem] lg:mt-[-1.5rem] xl:mt-[-2rem] 2xl:mt-[-2.25rem]
           sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5
@@ -28,59 +34,77 @@ const { heading, sections } = Astro.props
           lg:[&>:nth-child(5n+3)]:col-start-4
           lg:[&>:nth-child(5n+4)]:col-start-1
           lg:[&>:nth-child(5n+5)]:col-start-5
-        ">
-          {cards.map(({ text, image }) => <li>
-            {(image || text) && <figure
-              class="relative aspect-[254/355] bg-midnight"
-            >
-              {image && <img
-                {...image}
-                class="absolute w-full h-full object-cover"
-                loading="lazy"
-              />}
-              {text && <figcaption
-                class="absolute inset-x-0 bottom-0 max-h-full overflow-y-auto px-[1.0625rem] pb-[1.375rem] text-[1.5rem] leading-[1.8125rem] tracking-[-0.04em] font-bold text-white"
-                set:html={`${text.split('\n').join('<br>')}`}
-              />}
-            </figure>}
-          </li>)}
-        </ul>}
-      </section>)}
-    </div>}
+        "
+                >
+                  {cards.map(({ text, image }) => (
+                    <li class="group">
+                      {(image || text) && (
+                        <figure class="relative aspect-[254/355] bg-midnight">
+                          {image && (
+                            <img
+                              {...image}
+                              class="absolute w-full h-full object-cover"
+                              loading="lazy"
+                            />
+                          )}
+                          {text && (
+                            <figcaption
+                              class="group-hover:opacity-100 [text-shadow:0_1px_2px_rgb(0_0_0/0.1),0_1px_1px_rgb(0_0_0/0.06)] opacity-0 duration-300 absolute inset-x-0 bottom-0 max-h-full overflow-y-auto px-[1.0625rem] pb-[1.375rem] text-[1.2rem] leading-[1.8125rem] tracking-[-0.04em] font-bold text-white"
+                              set:html={`${text.split('\n').join('<br>')}`}
+                            />
+                          )}
+                        </figure>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          ))}
+        </div>
+      )
+    }
   </div>
 </section>
 
 <script>
-import Alpine from 'alpinejs'
-import { gsap } from 'gsap'
+  import Alpine from 'alpinejs'
+  import { gsap } from 'gsap'
 
-Alpine.data('Cards', () => ({
-  init () {
-    gsap.matchMedia().add({
-      sm: '(min-width: 640px)',
-      md: '(min-width: 768px)',
-      lg: '(min-width: 1024px)'
-    }, ({ conditions: { DEFAULT, sm, md, lg } }) => {
-      const screen = lg ? 'lg' : md ? 'md' : sm ? 'sm' : 'DEFAULT'
-      const columns = { DEFAULT: 1, sm: 2, md: 3, lg: 5 }[screen]
-      const spacing = 100
+  Alpine.data('Cards', () => ({
+    init() {
+      gsap.matchMedia().add(
+        {
+          sm: '(min-width: 640px)',
+          md: '(min-width: 768px)',
+          lg: '(min-width: 1024px)',
+        },
+        ({ conditions: { DEFAULT, sm, md, lg } }) => {
+          const screen = lg ? 'lg' : md ? 'md' : sm ? 'sm' : 'DEFAULT'
+          const columns = { DEFAULT: 1, sm: 2, md: 3, lg: 5 }[screen]
+          const spacing = 100
 
-      for (const section of this.$el.querySelectorAll('section')) {
-        for (const [index, item] of section.querySelectorAll('li').entries()) {
-          gsap.timeline({
-            scrollTrigger: {
-              trigger: item,
-              start: 'top bottom',
-              end: 'top 40',
-              scrub: 1,
+          for (const section of this.$el.querySelectorAll('section')) {
+            for (const [index, item] of section
+              .querySelectorAll('li')
+              .entries()) {
+              gsap
+                .timeline({
+                  scrollTrigger: {
+                    trigger: item,
+                    start: 'top bottom',
+                    end: 'top 40',
+                    scrub: 1,
+                  },
+                })
+                .from(item, {
+                  y: Math.ceil((index % columns) / 2) * spacing + spacing,
+                  ease: 'power4.out',
+                })
             }
-          }).from(item, {
-            y: Math.ceil((index % columns) / 2) * spacing + spacing,
-            ease: 'power4.out'
-          })
+          }
         }
-      }
-    })
-  }
-}))
+      )
+    },
+  }))
 </script>
