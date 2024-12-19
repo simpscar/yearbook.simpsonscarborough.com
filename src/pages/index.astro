@@ -220,6 +220,7 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
         width="2880"
         height="1288"
         class="w-full"
+        loading="lazy"
       />
       <section class="bg-midnight text-white">
         <div class="container py-[3.75rem] space-y-[2.375rem]">
@@ -295,7 +296,11 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
                         ].join('<br> ')}
                       />
                     )}
-                    {images?.length ? <Pile class="z-10" images={images} /> : ''}
+                    {images?.length ? (
+                      <Pile class="z-10" images={images} />
+                    ) : (
+                      ''
+                    )}
                   </li>
                 )
               })
@@ -304,7 +309,13 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
         </div>
       </section>
       <Quotes {...data.testimonials} />
-      <img src="/images/outro.webp" width="2880" height="1288" class="w-full" />
+      <img
+        src="/images/outro.webp"
+        width="2880"
+        height="1288"
+        class="w-full"
+        loading="lazy"
+      />
       <section class="bg-blue">
         <div class="container text-white space-y-10 py-10 font-bold">
           <div>
@@ -331,7 +342,7 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
             </p>
           </div>
           <Button
-						target="_blank"
+            target="_blank"
             href="https://open.spotify.com/playlist/2DH4F0QFixWivEFxGORMzz?si=C3Z4eEIDRSaoABJc64i88g "
           >
             2024
