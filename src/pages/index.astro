@@ -323,34 +323,31 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
               <span
                 class="py-[0.124em] text-[2.75rem] xs:text-[4.25rem] sm:text-[5.75rem] md:text-[6.75rem] lg:text-[9rem] xl:text-[11rem] 2xl:text-[12.5rem] leading-[0.890] tracking-[-0.06em]"
               >
-                <span class="block">{data.footer.callToAction.lines[0]}</span>
-                <span class="block">
-                  {data.footer.callToAction.lines[1]}
-                  <span class="inline-flex items-baseline"><S />ee</span>
-                </span>
-                <span class="block text-right">{data.footer.callToAction.lines[2]}</span>
+              <span class="block">{data.footer.callToAction.line1}</span>
+              <span class="block">
+                {data.footer.callToAction.line2}
+                <span class="inline-flex items-baseline"><S />ee</span>
               </span>
+              <span class="block text-right">{data.footer.callToAction.line3}</span>
             </p>
             <p
               class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] leading-[1.208] tracking-[-.06em]"
             >
-              And here’s your soundtrack <br />to do just that:
+              {data.footer.callToAction.suffix}
             </p>
           </div>
           <Button
             target="_blank"
-            href="https://open.spotify.com/playlist/2DH4F0QFixWivEFxGORMzz?si=C3Z4eEIDRSaoABJc64i88g "
+            href={data.footer.spotifyButton.url}
           >
-            2024
-            <span class="hidden sm:inline">SimpsonScarborough</span>
-            Spotify Playlist
+            {data.footer.spotifyButton.text}
           </Button>
           <hr class="border-t-2 border-304" />
           <div class="flex justify-between gap-x-5">
             <p
               class="text-[1.125rem] tracking-[-0.06em] leading-[1.375rem] font-medium text-balance"
             >
-              {data.footer.copyright}
+              © {new Date().getFullYear()} SimpsonScarborough. All rights reserved.
             </p>
             <Social />
           </div>

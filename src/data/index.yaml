@@ -326,12 +326,10 @@ testimonials:
 footer:
   callToAction:
     prefix: Go forth and
-    lines:
-      - Do the work
-      - you want to
-      - in the world.
+    line1: Do the work
+    line2: you want to
+    line3: in the world.
     suffix: And here's your soundtrack to do just that
   spotifyButton:
     text: 2024 SimpsonScarborough Spotify Playlist
     url: https://open.spotify.com/playlist/2DH4F0QFixWivEFxGORMzz?si=C3Z4eEIDRSaoABJc64i88g
-  copyright: © 2024 SimpsonScarborough. All rights reserved.
