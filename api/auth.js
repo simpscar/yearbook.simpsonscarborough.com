@@ -1,8 +1,22 @@
 export default async function handler(req, res) {
-  const { code } = req.query;
+  // Enable CORS
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+
+  const code = req.query.code || req.body?.code;
   
   if (!code) {
-    return res.status(400).json({ error: 'No code provided' });
+    console.error('No code in request:', { query: req.query, body: req.body });
+    return res.status(400).json({ 
+      error: 'No code provided',
+      query: req.query,
+      method: req.method 
+    });
   }
 
   try {
@@ -54,6 +68,7 @@ export default async function handler(req, res) {
     res.setHeader('Content-Type', 'text/html');
     res.status(200).send(html);
   } catch (error) {
+    console.error('OAuth error:', error);
     res.status(500).json({ error: error.message });
   }
 }
