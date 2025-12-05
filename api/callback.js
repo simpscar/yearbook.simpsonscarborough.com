@@ -25,7 +25,7 @@ export default async function handler(req, res) {
       return res.status(400).json(data);
     }
 
-    // Return HTML that posts the message in the exact format Decap expects
+    // Return success page with token that posts message back to opener
     const html = `
       <!DOCTYPE html>
       <html>
@@ -35,21 +35,18 @@ export default async function handler(req, res) {
         <body>
           <script>
             (function() {
-              if (window.opener) {
+              function receiveMessage(e) {
                 window.opener.postMessage(
-                  {
-                    type: 'authorization',
-                    provider: 'github',
-                    token: '${data.access_token}',
-                    error: null
-                  },
-                  '*'
+                  'authorization:github:success:${JSON.stringify(data)}',
+                  e.origin
                 );
+                window.removeEventListener("message", receiveMessage, false);
               }
+              window.addEventListener("message", receiveMessage, false);
+              window.opener.postMessage("authorizing:github", "*");
             })();
-            window.close();
           </script>
-          <p>Authorization successful. This window should close automatically.</p>
+          <p>Authorizing... You can close this window.</p>
         </body>
       </html>
     `;
@@ -57,7 +54,6 @@ export default async function handler(req, res) {
     res.setHeader('Content-Type', 'text/html');
     res.status(200).send(html);
   } catch (error) {
-    console.error('OAuth error:', error);
     res.status(500).json({ error: error.message });
   }
 }
