@@ -25,20 +25,7 @@ export default async function handler(req, res) {
       return res.status(400).json(data);
     }
 
-    // Test if the token actually works by making a test API call
-    const testResponse = await fetch('https://api.github.com/repos/simpscar/yearbook.simpsonscarborough.com', {
-      headers: {
-        'Authorization': `token ${data.access_token}`,
-        'Accept': 'application/vnd.github.v3+json'
-      }
-    });
-
-    const testResult = await testResponse.json();
-    
-    // Log for debugging (will show in Vercel logs)
-    console.log('Token test result:', testResponse.status, testResult);
-
-    // Return success page with token that posts message back to opener
+    // Return HTML that posts the message in the exact format Decap expects
     const html = `
       <!DOCTYPE html>
       <html>
@@ -48,19 +35,21 @@ export default async function handler(req, res) {
         <body>
           <script>
             (function() {
-              function receiveMessage(e) {
+              if (window.opener) {
                 window.opener.postMessage(
-                  'authorization:github:success:${JSON.stringify(data)}',
-                  e.origin
+                  {
+                    type: 'authorization',
+                    provider: 'github',
+                    token: '${data.access_token}',
+                    error: null
+                  },
+                  '*'
                 );
-                window.removeEventListener("message", receiveMessage, false);
               }
-              window.addEventListener("message", receiveMessage, false);
-              window.opener.postMessage("authorizing:github", "*");
             })();
+            window.close();
           </script>
-          <p>Authorizing... Token test status: ${testResponse.status}</p>
-          <p style="font-size: 10px;">Debug: ${JSON.stringify(testResult).substring(0, 200)}</p>
+          <p>Authorization successful. This window should close automatically.</p>
         </body>
       </html>
     `;
@@ -68,6 +57,7 @@ export default async function handler(req, res) {
     res.setHeader('Content-Type', 'text/html');
     res.status(200).send(html);
   } catch (error) {
+    console.error('OAuth error:', error);
     res.status(500).json({ error: error.message });
   }
 }
