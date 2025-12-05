@@ -47,8 +47,8 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
             <Logo />
             <div class="flex items-center gap-x-5">
               <Social />
-              <Button href="https://www.simpsonscarborough.com/">
-                Get to Know Us
+              <Button href={data.header.button.href}>
+                {data.header.button.text}
               </Button>
             </div>
           </div>
@@ -56,14 +56,14 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
             <h1
               class="text-[2rem] xs:text-[3rem] sm:text-[5rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] leading-[0.90625] font-bold text-white text-center pb-[3.125rem]"
             >
-              We went
+              {data.hero.title}
               <span class="font-serif font-normal">
-                all <span class="italic">out</span><br />
+                {data.hero.subtitle} <span class="italic">out</span><br />
               </span>
-              in 2024.
+              in {data.hero.year}.
             </h1>
-            <Button href="#letter" scheme="midnight">
-              Scroll
+            <Button href={data.hero.scrollButton.href} scheme="midnight">
+              {data.hero.scrollButton.text}
               <svg width="30" height="29">
                 <circle cx="15" cy="14.5" r="14.5" class="fill-blue"></circle>
                 <path
@@ -77,13 +77,13 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
       </section>
       <Quotes {...data.letter} />
       <img src="/images/intro.webp" width="2880" height="1288" class="w-full" />
-      <Stats />
+      <Stats {...data.stats} />
       <Cards {...data.freshmen} />
       <section>
         <div class="container py-10 space-y-[3.75rem]">
           <hgroup class="text-[1.375rem] leading-[1.625rem] text-center">
-            <h2 class="font-bold">Anywhere and Everywhere</h2>
-            <p>Our freshman class hails from all over (we all do!)</p>
+            <h2 class="font-bold">{data.map.heading}</h2>
+            <p>{data.map.subheading}</p>
           </hgroup>
           <svg
             id="map"
@@ -225,8 +225,8 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
       <section class="bg-midnight text-white">
         <div class="container py-[3.75rem] space-y-[2.375rem]">
           <hgroup class="text-[1.375rem] leading-[1.625rem] text-center">
-            <h2 class="font-bold">Class Notes</h2>
-            <p>Who said that? Time to share with the rest of the class.</p>
+            <h2 class="font-bold">{data.classNotes.heading}</h2>
+            <p>{data.classNotes.subheading}</p>
           </hgroup>
           <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/20">
             {
@@ -258,12 +258,8 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
           <hgroup
             class="text-[1.375rem] leading-[1.625rem] max-w-[60.3125rem] mx-auto text-midnight"
           >
-            <h2 class="font-bold">The Year of We</h2>
-            <p>
-              We clicked in Chicago between meetings and meals. Collaborated
-              with clients across the country. And cringed at the thought of
-              being called on by a magician over Zoom. What a ride.
-            </p>
+            <h2 class="font-bold">{data.yearInReview.heading}</h2>
+            <p>{data.yearInReview.description}</p>
           </hgroup>
           <ol class="space-y-5">
             {
@@ -322,17 +318,17 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
             <p class="flex flex-col">
               <span
                 class="text-[1.5rem] sm:text-[2rem] md:text-[3rem] leading-[1] tracking-[-.06em] text-midnight"
-                >Go forth and</span
+                >{data.footer.callToAction.prefix}</span
               >
               <span
                 class="py-[0.124em] text-[2.75rem] xs:text-[4.25rem] sm:text-[5.75rem] md:text-[6.75rem] lg:text-[9rem] xl:text-[11rem] 2xl:text-[12.5rem] leading-[0.890] tracking-[-0.06em]"
               >
-                <span class="block">Do the work</span>
+                <span class="block">{data.footer.callToAction.lines[0]}</span>
                 <span class="block">
-                  you want to
+                  {data.footer.callToAction.lines[1]}
                   <span class="inline-flex items-baseline"><S />ee</span>
                 </span>
-                <span class="block text-right">in the world.</span>
+                <span class="block text-right">{data.footer.callToAction.lines[2]}</span>
               </span>
             </p>
             <p
@@ -354,7 +350,7 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
             <p
               class="text-[1.125rem] tracking-[-0.06em] leading-[1.375rem] font-medium text-balance"
             >
-              © 2024 SimpsonScarborough. All rights reserved.
+              {data.footer.copyright}
             </p>
             <Social />
           </div>

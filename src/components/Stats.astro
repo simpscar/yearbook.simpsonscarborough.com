@@ -1,8 +1,12 @@
+---
+const { heading, subheading, items } = Astro.props;
+---
+
 <section x-data="Stats" class="stats bg-midnight">
   <div class="container py-10 flex flex-col gap-y-2.5">
     <hgroup class="text-white text-[1.375rem] leading-[1.625rem] text-center">
-      <h2 class="font-bold">It Starts With Data</h2>
-      <p>Because of course it does.</p>
+      <h2 class="font-bold">{heading}</h2>
+      <p>{subheading}</p>
     </hgroup>
     <ul
       class="contents
@@ -14,17 +18,9 @@
       xl:[&>li]:text-[6rem]
       2xl:[&>li]:text-[7rem]"
     >
-      <li class="text-304">500k+ Miles Travelled</li>
-      <li class="text-7487 text-right">754 Tango Cards Sent</li>
-      <li class="text-process-yellow-50">17 Special Doorstep Deliveries</li>
-      <li class="text-1895">649 Minutes in All Agency Meetings</li>
-      <li class="text-2344 text-right">83 Unique Fascinate Archetypes</li>
-      <li class="text-304">14 Promotions</li>
-      <li class="text-7487 text-right">11 Conferences Attended</li>
-      <li class="text-process-yellow-50">
-        2,600+ Registrants for 6 Agency Webinars
-      </li>
-      <li class="text-1895">421 Drink Tickets Distributed</li>
+      {items.map(({ text, color, alignRight }) => (
+        <li class={`text-${color}${alignRight ? ' text-right' : ''}`}>{text}</li>
+      ))}
     </ul>
   </div>
 </section>

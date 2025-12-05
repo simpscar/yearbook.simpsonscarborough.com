@@ -10,6 +10,39 @@ collections:
   - name: "yearbook"
     label: "Yearbook Content"
     files:
+      - name: "hero"
+        label: "Hero Section"
+        file: "src/data/index.yaml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", hint: "First line of the hero text"}
+              - {label: "Subtitle", name: "subtitle", widget: "string", hint: "Second line (e.g., 'all out')"}
+              - {label: "Year", name: "year", widget: "string", default: "2024"}
+              - label: "Scroll Button"
+                name: "scrollButton"
+                widget: "object"
+                fields:
+                  - {label: "Text", name: "text", widget: "string", default: "Scroll"}
+                  - {label: "Link", name: "href", widget: "string", default: "#letter"}
+      
+      - name: "header"
+        label: "Header"
+        file: "src/data/index.yaml"
+        fields:
+          - label: "Header"
+            name: "header"
+            widget: "object"
+            fields:
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - {label: "Text", name: "text", widget: "string", default: "Get to Know Us"}
+                  - {label: "URL", name: "href", widget: "string", default: "https://www.simpsonscarborough.com/"}
+      
       - name: "letter"
         label: "CEO Letter"
         file: "src/data/index.yaml"
@@ -26,6 +59,35 @@ collections:
                 fields:
                   - {label: "Text", name: "text", widget: "markdown"}
                   - {label: "Citation", name: "cite", widget: "text"}
+      
+      - name: "stats"
+        label: "Stats (Data Section)"
+        file: "src/data/index.yaml"
+        fields:
+          - label: "Stats"
+            name: "stats"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string", default: "It Starts With Data"}
+              - {label: "Subheading", name: "subheading", widget: "string", default: "Because of course it does."}
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Stat", name: "text", widget: "string"}
+                  - {label: "Color", name: "color", widget: "select", options: [{label: "Sky Blue", value: "sky-blue"}, {label: "Lime Green", value: "lime-green"}, {label: "Yellow", value: "yellow"}, {label: "Pink", value: "pink"}, {label: "Coral", value: "coral"}], hint: "Choose a color for this stat"}
+                  - {label: "Align Right", name: "alignRight", widget: "boolean", default: false}
+      
+      - name: "map"
+        label: "Map Section"
+        file: "src/data/index.yaml"
+        fields:
+          - label: "Map"
+            name: "map"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Subheading", name: "subheading", widget: "string"}
       
       - name: "freshmen"
         label: "Class of 2024"
@@ -77,6 +139,17 @@ collections:
                         fields:
                           - {label: "Image", name: "src", widget: "image"}
       
+      - name: "classNotes"
+        label: "Class Notes"
+        file: "src/data/index.yaml"
+        fields:
+          - label: "Class Notes"
+            name: "classNotes"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Subheading", name: "subheading", widget: "string"}
+      
       - name: "quotes"
         label: "Quotes"
         file: "src/data/index.yaml"
@@ -88,6 +161,17 @@ collections:
               - {label: "Quote", name: "text", widget: "text"}
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Title", name: "title", widget: "string"}
+      
+      - name: "yearInReview"
+        label: "Year in Review"
+        file: "src/data/index.yaml"
+        fields:
+          - label: "Year in Review"
+            name: "yearInReview"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
       
       - name: "moments"
         label: "Moments"
@@ -116,3 +200,31 @@ collections:
                 fields:
                   - {label: "Quote", name: "text", widget: "markdown"}
                   - {label: "Citation", name: "cite", widget: "string"}
+      
+      - name: "footer"
+        label: "Footer"
+        file: "src/data/index.yaml"
+        fields:
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - label: "Call to Action"
+                name: "callToAction"
+                widget: "object"
+                fields:
+                  - {label: "Prefix", name: "prefix", widget: "string", hint: "Text before the main lines (e.g., 'Go forth and')"}
+                  - label: "Lines"
+                    name: "lines"
+                    widget: "list"
+                    hint: "Three lines of the main message"
+                    fields:
+                      - {label: "Line", name: "line", widget: "string"}
+                  - {label: "Suffix", name: "suffix", widget: "string", hint: "Text after the main lines"}
+              - label: "Spotify Button"
+                name: "spotifyButton"
+                widget: "object"
+                fields:
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+              - {label: "Copyright", name: "copyright", widget: "string", default: "© 2024 SimpsonScarborough. All rights reserved."}

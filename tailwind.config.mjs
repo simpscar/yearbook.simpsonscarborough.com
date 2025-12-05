@@ -2,6 +2,13 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+	safelist: [
+		'text-sky-blue',
+		'text-lime-green',
+		'text-yellow',
+		'text-pink',
+		'text-coral',
+	],
 	theme: {
 		container: {
 			center: true,
@@ -22,6 +29,12 @@ export default {
 			colors: {
 				blue: '#0077cd',
 				midnight: '#002A3A',
+				'sky-blue': '#9adcf7',
+				'lime-green': '#c5f1a5',
+				yellow: '#fbee81',
+				pink: '#ffb3e0',
+				coral: '#ff8679',
+				// Legacy Pantone codes (keep for backwards compatibility)
 				2010: '#ffac00',
 				304: '#9adcf7',
 				7487: '#c5f1a5',
