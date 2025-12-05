@@ -25,6 +25,19 @@ export default async function handler(req, res) {
       return res.status(400).json(data);
     }
 
+    // Test if the token actually works by making a test API call
+    const testResponse = await fetch('https://api.github.com/repos/simpscar/yearbook.simpsonscarborough.com', {
+      headers: {
+        'Authorization': `token ${data.access_token}`,
+        'Accept': 'application/vnd.github.v3+json'
+      }
+    });
+
+    const testResult = await testResponse.json();
+    
+    // Log for debugging (will show in Vercel logs)
+    console.log('Token test result:', testResponse.status, testResult);
+
     // Return success page with token that posts message back to opener
     const html = `
       <!DOCTYPE html>
@@ -46,7 +59,8 @@ export default async function handler(req, res) {
               window.opener.postMessage("authorizing:github", "*");
             })();
           </script>
-          <p>Authorizing... You can close this window.</p>
+          <p>Authorizing... Token test status: ${testResponse.status}</p>
+          <p style="font-size: 10px;">Debug: ${JSON.stringify(testResult).substring(0, 200)}</p>
         </body>
       </html>
     `;
