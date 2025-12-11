@@ -1,16 +1,244 @@
+header:
+  button:
+    text: Get to Know Usk
+    href: https://www.simpsonscarborough.com/
+footer:
+  spotifyButton:
+    url: https://open.spotify.com/playlist/2DH4F0QFixWivEFxGORMzz?si=C3Z4eEIDRSaoABJc64i88g
+    text: 2024 SimpsonScarborough Spotify Playlist
+  callToAction:
+    suffix: And here's your soundtrack to do just that
+    line3: in the world.
+    line2: you want to
+    line1: Do the work
+    prefix: Go forth and
+moments:
+  - date: 2024-01-18
+    heading: We witnessed not tricks, but Illusions at our first (and last) team Magic Show.
+  - date: 2024-02-17
+    heading: Learned of our lore during Founders' Day.
+  - date: 2024-02-28
+    heading: Revamped and reimagined our fifth Higher Ed CMO Study
+  - date: 2024-05-09
+    heading: Reflected, strategized, and energized at the Growth Area Retreat.
+  - date: 2024-06-03
+    heading: Decked out in D.C. for the PMO Retreat.
+  - date: 2024-06-11
+    heading: Redefined community, collaboration, and success at CMOLab.
+  - date: 2024-06-26
+    heading: Did some R&D in ATL at the Research, Analytics & Insights Retreat.
+  - date: 2024-06-27
+    heading: Grew & goal-planned at the People & Culture Retreat.
+  - date: 2024-07-22
+    heading: Bonded IRL at the Interactive Retreat.
+  - date: 2024-07-28
+    heading: Built stronger relationships at the Accounts Retreat.
+  - date: 2024-08-01
+    heading: Problem solved at the Engineering Retreat.
+  - date: 2024-08-12
+    heading: Got insightful in-person at the Strategy Area Retreat.
+  - date: 2024-08-21
+    heading: Cleared our minds and the Rage Room at the Creative Area Retreat.
+  - date: 2024-10-18
+    heading: Went all out all day and night at the All Agency Retreat.
+  - date: 2024-11-10
+    heading: Brought down the house in Vegas at the 2024 AMA.
+quotes:
+  - text: I'm Marcus — I wake up, I put on a v-neck.
+    name: Chelsea Woodard
+    title: Operations
+  - text: Ask GPT what custom GPT is.
+    name: Reya Calistes
+    title: Research, Analytics & Insights
+  - text: Talk soon, your best friend, Steve. <- I won't really sign off my email this way.
+    name: Steve App
+    title: Growth
+  - text: "Used logo guidelines where it's like: 'we'll send someone to your house if you use this wrong'."
+    name: Tim Meyer
+    title: Interactive
+  - text: Not a Ruth's Chris taste with a McDonald's budget.
+    name: Dana Anthony
+    title: Project Management Office
+  - text: Excuse me, I'm very snotty. In many ways.
+    name: Andrea Kruszka
+    title: Accounts
+  - text: She's playing Checkers; I'm playing Call of Duty.
+    name: Rex Stancliff
+    title: Project Management Office
+  - text: A bird pooped on my computer and I have nothing to clean it off.
+    name: Shannon Berg
+    title: Project Management Office
+  - text: I want to be mansplained by you, Corynn. Forever.
+    name: Jason Shough
+    title: Creative
+classNotes:
+  subheading: Who said that? Time to share with the rest of the class.
+  heading: Class Notes
+freshmen:
+  sections:
+    - cards:
+        - text: |-
+            Murray Simpson
+            Vice President, Growth (Growth)
+            Brooklyn, New York
+          image:
+            src: /images/people/murray-simpson.webp
+        - text: |-
+            Griffin Scarborough
+            Junior Analyst (RAI)
+            New York, New York
+          image:
+            src: /images/people/griffin-scarborough.webp
+        - text: |-
+            Kristen Blake
+            Resource Manager (Operations)
+            Hampton, Georgia
+          image:
+            src: /images/people/kristen-blake.webp
+        - text: |-
+            Charles Hall
+            Account Director (Accounts)
+            Astoria, New York
+          image:
+            src: /images/people/charles-hall.webp
+        - text: |-
+            Marchantia Ivey
+            Associate Project Manager (Project Management Office)
+            Brandywine, Maryland
+          image:
+            src: /images/people/marchantia-ivey.webp
+        - text: |-
+            Jonathan Adams
+            Senior Web Developer (Engineering)
+            Sacramento, California
+          image:
+            src: /images/people/jonathan-adams.webp
+        - text: |-
+            Katlin Swisher
+            Director, Strategy Planning (Strategy)
+            Morgantown, West Virginia
+          image:
+            src: /images/people/katlin-swisher.webp
+        - text: |-
+            Ben Loeffler
+            Solutions Architect (Engineering)
+            Los Angeles, California
+          image:
+            src: /images/people/ben-loeffler.webp
+        - text: |-
+            Zach Wilke
+            Senior Art Director (Creative)
+            Columbus, Ohio
+          image:
+            src: /images/people/zach-wilke.webp
+        - text: |-
+            Mandy Howard
+            Senior Project Manager (Project Management Office)
+            Smyrna, Georgia
+          image:
+            src: /images/people/mandy-howard.webp
+        - text: |-
+            Joe Taphorn
+            Media Manager (Strategy)
+            Greenville, South Carolina
+          image:
+            src: /images/people/joe-taphorn.webp
+        - text: |-
+            Bilal Sheik
+            Senior Writer (Creative)
+            Knoxville, Tennessee
+          image:
+            src: /images/people/bilal-sheik.webp
+        - text: |-
+            Fred Demarest
+            Director, Partnerships (Growth)
+            Cary, North Carolina
+          image:
+            src: /images/people/fred-demarest.webp
+        - text: |-
+            Kristen Tiernan
+            Associate Project Manager (Project Management Office)
+            Simpsonville, South Carolina
+          image:
+            src: /images/people/kristen-tiernan.webp
+        - text: |-
+            Keith Warburg
+            Account Director (Accounts)
+            Hahira, Georgia
+          image:
+            src: /images/people/keith-warburg.webp
+        - text: |-
+            Arham Anwar
+            Data Analyst (RAI)
+            New Market, Maryland
+          image:
+            src: /images/people/arham-anwar.webp
+        - text: |-
+            Chase Corey
+            Partnerships Manager (Growth)
+            Winter Park, Florida
+          image:
+            src: /images/people/chase-corey.webp
+        - text: |-
+            Jaemi Graham
+            Senior Project Manager (Project Management Office)
+            Kennesaw, Georgia
+          image:
+            src: /images/people/jaemi-graham.webp
+        - text: |-
+            Ashlyn Neiffer
+            Senior Designer (Growth)
+            Lansdale, Pennsylvania
+          image:
+            src: /images/people/ashlyn-neiffer.webp
+        - text: |-
+            Kelsey Lavine
+            Senior UI Designer (Interactive)
+            Tucson, Arizona
+          image:
+            src: /images/people/kelsey-lavine.webp
+      heading: Meet the _Fresh_men
+  heading: Class of 2024
+stats:
+  items:
+    - alignRight: false
+      color: sky-blue
+      text: 500k+ Miles Travelled
+    - alignRight: true
+      color: lime-green
+      text: 754 Tango Cards Sent
+    - alignRight: false
+      color: yellow
+      text: 17 Special Doorstep Deliveries
+    - alignRight: false
+      color: pink
+      text: 649 Minutes in All Agency Meetings
+    - alignRight: true
+      color: coral
+      text: 83 Unique Fascinate Archetypes
+    - alignRight: false
+      color: sky-blue
+      text: 14 Promotions
+    - alignRight: true
+      color: lime-green
+      text: 11 Conferences Attended
+    - alignRight: false
+      color: yellow
+      text: 2,600+ Registrants for 6 Agency Webinars
+    - alignRight: false
+      color: pink
+      text: 421 Drink Tickets Distributed
+  subheading: Because of course it does.
+  heading: It Starts With Data
 hero:
   title: We went
   subtitle: all out
   year: 2024
   scrollButton:
     text: Scroll
-    href: "#letter"
-header:
-  button:
-    text: Get to Know Us
-    href: https://www.simpsonscarborough.com/
+    href: '#letter'
 letter:
-  heading: "A letter from our #1 Jason"
+  heading: 'A letter from our #1 Jason'
   quoteMarks: false
   quotes:
     - text: |-
@@ -26,165 +254,9 @@ letter:
       cite: |-
         Jason Simon
         Partner & CEO
-stats:
-  heading: It Starts With Data
-  subheading: Because of course it does.
-  items:
-    - text: 500k+ Miles Travelled
-      color: sky-blue
-      alignRight: false
-    - text: 754 Tango Cards Sent
-      color: lime-green
-      alignRight: true
-    - text: 17 Special Doorstep Deliveries
-      color: yellow
-      alignRight: false
-    - text: 649 Minutes in All Agency Meetings
-      color: pink
-      alignRight: false
-    - text: 83 Unique Fascinate Archetypes
-      color: coral
-      alignRight: true
-    - text: 14 Promotions
-      color: sky-blue
-      alignRight: false
-    - text: 11 Conferences Attended
-      color: lime-green
-      alignRight: true
-    - text: 2,600+ Registrants for 6 Agency Webinars
-      color: yellow
-      alignRight: false
-    - text: 421 Drink Tickets Distributed
-      color: pink
-      alignRight: false
 map:
   heading: Anywhere and Everywhere
   subheading: Our freshman class hails from all over (we all do!)
-freshmen:
-  heading: Class of 2024
-  sections:
-    - heading: Meet the _Fresh_men
-      cards:
-        - image:
-            src: /images/people/murray-simpson.webp
-          text: |-
-            Murray Simpson
-            Vice President, Growth (Growth)
-            Brooklyn, New York
-        - image:
-            src: /images/people/griffin-scarborough.webp
-          text: |-
-            Griffin Scarborough
-            Junior Analyst (RAI)
-            New York, New York
-        - image:
-            src: /images/people/kristen-blake.webp
-          text: |-
-            Kristen Blake
-            Resource Manager (Operations)
-            Hampton, Georgia
-        - image:
-            src: /images/people/charles-hall.webp
-          text: |-
-            Charles Hall
-            Account Director (Accounts)
-            Astoria, New York
-        - image:
-            src: /images/people/marchantia-ivey.webp
-          text: |-
-            Marchantia Ivey
-            Associate Project Manager (Project Management Office)
-            Brandywine, Maryland
-        - image:
-            src: /images/people/jonathan-adams.webp
-          text: |-
-            Jonathan Adams
-            Senior Web Developer (Engineering)
-            Sacramento, California
-        - image:
-            src: /images/people/katlin-swisher.webp
-          text: |-
-            Katlin Swisher
-            Director, Strategy Planning (Strategy)
-            Morgantown, West Virginia
-        - image:
-            src: /images/people/ben-loeffler.webp
-          text: |-
-            Ben Loeffler
-            Solutions Architect (Engineering)
-            Los Angeles, California
-        - image:
-            src: /images/people/zach-wilke.webp
-          text: |-
-            Zach Wilke
-            Senior Art Director (Creative)
-            Columbus, Ohio
-        - image:
-            src: /images/people/mandy-howard.webp
-          text: |-
-            Mandy Howard
-            Senior Project Manager (Project Management Office)
-            Smyrna, Georgia
-        - image:
-            src: /images/people/joe-taphorn.webp
-          text: |-
-            Joe Taphorn
-            Media Manager (Strategy)
-            Greenville, South Carolina
-        - image:
-            src: /images/people/bilal-sheik.webp
-          text: |-
-            Bilal Sheik
-            Senior Writer (Creative)
-            Knoxville, Tennessee
-        - image:
-            src: /images/people/fred-demarest.webp
-          text: |-
-            Fred Demarest
-            Director, Partnerships (Growth)
-            Cary, North Carolina
-        - image:
-            src: /images/people/kristen-tiernan.webp
-          text: |-
-            Kristen Tiernan
-            Associate Project Manager (Project Management Office)
-            Simpsonville, South Carolina
-        - image:
-            src: /images/people/keith-warburg.webp
-          text: |-
-            Keith Warburg
-            Account Director (Accounts)
-            Hahira, Georgia
-        - image:
-            src: /images/people/arham-anwar.webp
-          text: |-
-            Arham Anwar
-            Data Analyst (RAI)
-            New Market, Maryland
-        - image:
-            src: /images/people/chase-corey.webp
-          text: |-
-            Chase Corey
-            Partnerships Manager (Growth)
-            Winter Park, Florida
-        - image:
-            src: /images/people/jaemi-graham.webp
-          text: |-
-            Jaemi Graham
-            Senior Project Manager (Project Management Office)
-            Kennesaw, Georgia
-        - image:
-            src: /images/people/ashlyn-neiffer.webp
-          text: |-
-            Ashlyn Neiffer
-            Senior Designer (Growth)
-            Lansdale, Pennsylvania
-        - image:
-            src: /images/people/kelsey-lavine.webp
-          text: |-
-            Kelsey Lavine
-            Senior UI Designer (Interactive)
-            Tucson, Arizona
 seniors:
   heading: Our Super Seniors
   sections:
@@ -227,71 +299,9 @@ seniors:
         - text: Jason Simon CEO & Partner
           image:
             src: /images/people/jason-simon.webp
-classNotes:
-  heading: Class Notes
-  subheading: Who said that? Time to share with the rest of the class.
-quotes:
-  - title: Operations
-    name: Chelsea Woodard
-    text: I'm Marcus — I wake up, I put on a v-neck.
-  - title: Research, Analytics & Insights
-    name: Reya Calistes
-    text: Ask GPT what custom GPT is.
-  - title: Growth
-    name: Steve App
-    text: Talk soon, your best friend, Steve. <- I won't really sign off my email this way.
-  - title: Interactive
-    name: Tim Meyer
-    text: "Used logo guidelines where it's like: 'we'll send someone to your house if you use this wrong'."
-  - title: Project Management Office
-    name: Dana Anthony
-    text: Not a Ruth's Chris taste with a McDonald's budget.
-  - title: Accounts
-    name: Andrea Kruszka
-    text: Excuse me, I'm very snotty. In many ways.
-  - title: Project Management Office
-    name: Rex Stancliff
-    text: She's playing Checkers; I'm playing Call of Duty.
-  - title: Project Management Office
-    name: Shannon Berg
-    text: A bird pooped on my computer and I have nothing to clean it off.
-  - title: Creative
-    name: Jason Shough
-    text: I want to be mansplained by you, Corynn. Forever.
 yearInReview:
   heading: The Year of We
   description: We clicked in Chicago between meetings and meals. Collaborated with clients across the country. And cringed at the thought of being called on by a magician over Zoom. What a ride.
-moments:
-  - heading: We witnessed not tricks, but Illusions at our first (and last) team Magic Show.
-    date: 2024-01-18
-  - heading: Learned of our lore during Founders' Day.
-    date: 2024-02-17
-  - heading: Revamped and reimagined our fifth Higher Ed CMO Study
-    date: 2024-02-28
-  - heading: Reflected, strategized, and energized at the Growth Area Retreat.
-    date: 2024-05-09
-  - heading: Decked out in D.C. for the PMO Retreat.
-    date: 2024-06-03
-  - heading: Redefined community, collaboration, and success at CMOLab.
-    date: 2024-06-11
-  - heading: Did some R&D in ATL at the Research, Analytics & Insights Retreat.
-    date: 2024-06-26
-  - heading: Grew & goal-planned at the People & Culture Retreat.
-    date: 2024-06-27
-  - heading: Bonded IRL at the Interactive Retreat.
-    date: 2024-07-22
-  - heading: Built stronger relationships at the Accounts Retreat.
-    date: 2024-07-28
-  - heading: Problem solved at the Engineering Retreat.
-    date: 2024-08-01
-  - heading: Got insightful in-person at the Strategy Area Retreat.
-    date: 2024-08-12
-  - heading: Cleared our minds and the Rage Room at the Creative Area Retreat.
-    date: 2024-08-21
-  - heading: Went all out all day and night at the All Agency Retreat.
-    date: 2024-10-18
-  - heading: Brought down the house in Vegas at the 2024 AMA.
-    date: 2024-11-10
 testimonials:
   scheme: dark
   heading: We say we. And for results, clients say SimpsonScarbough. <span class="font-normal">Here's why:</span>
@@ -323,13 +333,3 @@ testimonials:
 
         Thanks to their guidance, the positive changes we've seen in our brand's presence are undeniable. We feel more aligned with our brand and its personality than ever, and SimpsonScarborough's support continues to reinforce our success.
       cite: SoLAcc
-footer:
-  callToAction:
-    prefix: Go forth and
-    line1: Do the work
-    line2: you want to
-    line3: in the world.
-    suffix: And here's your soundtrack to do just that
-  spotifyButton:
-    text: 2024 SimpsonScarborough Spotify Playlist
-    url: https://open.spotify.com/playlist/2DH4F0QFixWivEFxGORMzz?si=C3Z4eEIDRSaoABJc64i88g
