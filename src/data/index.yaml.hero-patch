@@ -1,0 +1,11 @@
+header:
+  button:
+    text: Get to Know Us
+    href: https://www.simpsonscarborough.com/
+hero:
+  title: We went
+  subtitle: all out _out_
+  year: 2024
+  scrollButton:
+    text: Scroll
+    href: '#letter'

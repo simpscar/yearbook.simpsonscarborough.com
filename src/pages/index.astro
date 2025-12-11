@@ -57,9 +57,8 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
               class="text-[2rem] xs:text-[3rem] sm:text-[5rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] leading-[0.90625] font-bold text-white text-center pb-[3.125rem]"
             >
               {data.hero.title}
-              <span class="font-serif font-normal">
-                {data.hero.subtitle} <span class="italic">out</span><br />
-              </span>
+              <span class="font-serif font-normal" set:html={data.hero.subtitle} />
+              <br />
               in {data.hero.year}.
             </h1>
             <Button href={data.hero.scrollButton.href} scheme="midnight">
