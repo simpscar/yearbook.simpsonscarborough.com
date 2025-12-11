@@ -9,6 +9,8 @@ hero:
   scrollButton:
     text: Scroll
     href: '#letter'
+introImage:
+  src: /images/intro.webp
 letter:
   heading: 'A letter from our #1 Jason'
   quotes:
@@ -57,6 +59,8 @@ stats:
     - text: 421 Drink Tickets Distributed
       color: pink
       alignRight: false
+interludeImage:
+  src: /images/interlude.webp
 map:
   heading: Anywhere and Everywhere
   subheading: Our freshman class hails from all over (we all do!)
@@ -264,6 +268,9 @@ yearInReview:
 moments:
   - date: 2024-01-18
     heading: We witnessed not tricks, but Illusions at our first (and last) team Magic Show.
+    images:
+      - src: /images/moments/2024-01-18/AG+Magician.jpg
+      - src: /images/moments/2024-01-18/Untitled design.webp
   - date: 2024-02-17
     heading: Learned of our lore during Founders' Day.
   - date: 2024-02-28

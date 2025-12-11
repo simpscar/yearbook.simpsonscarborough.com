@@ -41,6 +41,13 @@ collections:
                   - {label: "Text", name: "text", widget: "string", default: "Scroll"}
                   - {label: "Link", name: "href", widget: "string", default: "#letter"}
           
+          - label: "Intro Image"
+            name: "introImage"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Image", name: "src", widget: "image", default: "/images/intro.webp"}
+          
           - label: "CEO Letter"
             name: "letter"
             widget: "object"
@@ -52,7 +59,8 @@ collections:
                 widget: "list"
                 fields:
                   - {label: "Text", name: "text", widget: "markdown"}
-                  - {label: "Citation", name: "cite", widget: "text"}
+                  - {label: "Citation", name: "cite", widget: "text", required: false, hint: "Optional - leave empty if no signature needed"}
+              - {label: "Show Quote Marks", name: "quoteMarks", widget: "boolean", default: false}
           
           - label: "Stats"
             name: "stats"
@@ -68,6 +76,13 @@ collections:
                   - {label: "Stat", name: "text", widget: "string"}
                   - {label: "Color", name: "color", widget: "select", options: [{label: "Sky Blue", value: "sky-blue"}, {label: "Lime Green", value: "lime-green"}, {label: "Yellow", value: "yellow"}, {label: "Pink", value: "pink"}, {label: "Coral", value: "coral"}], hint: "Choose a color for this stat"}
                   - {label: "Align Right", name: "alignRight", widget: "boolean", default: false}
+          
+          - label: "Interlude Image"
+            name: "interludeImage"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Image", name: "src", widget: "image", default: "/images/interlude.webp"}
           
           - label: "Map Section"
             name: "map"
@@ -153,6 +168,12 @@ collections:
             fields:
               - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false}
               - {label: "Heading", name: "heading", widget: "text"}
+              - label: "Images"
+                name: "images"
+                widget: "list"
+                required: false
+                hint: "Optional gallery images for this moment"
+                field: {label: "Image", name: "src", widget: "image"}
           
           - label: "Testimonials"
             name: "testimonials"

@@ -1,5 +1,5 @@
 ---
-import { existsSync, readdirSync, readFileSync } from 'node:fs'
+import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import '@fontsource-variable/figtree'
 import { parse } from 'yaml'
@@ -75,7 +75,9 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
         </div>
       </section>
       <Quotes {...data.letter} />
-      <img src="/images/intro.webp" width="2880" height="1288" class="w-full" />
+      {data.introImage?.src && (
+        <img src={data.introImage.src} width="2880" height="1288" class="w-full" />
+      )}
       <Stats {...data.stats} />
       <Cards {...data.freshmen} />
       <section>
@@ -214,13 +216,15 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
         </div>
       </section>
       <Cards {...data.seniors} />
-      <img
-        src="/images/interlude.webp"
-        width="2880"
-        height="1288"
-        class="w-full"
-        loading="lazy"
-      />
+      {data.interludeImage?.src && (
+        <img
+          src={data.interludeImage.src}
+          width="2880"
+          height="1288"
+          class="w-full"
+          loading="lazy"
+        />
+      )}
       <section class="bg-midnight text-white">
         <div class="container py-[3.75rem] space-y-[2.375rem]">
           <hgroup class="text-[1.375rem] leading-[1.625rem] text-center">
@@ -262,18 +266,7 @@ const data = parse(readFileSync(resolve('src/data/index.yaml'), 'utf-8'))
           </hgroup>
           <ol class="space-y-5">
             {
-              data.moments.map(({ date, heading }, index) => {
-                const dir = resolve(`public/images/moments/${date}`)
-                let images
-
-                if (existsSync(dir)) {
-                  images = readdirSync(dir)
-                    .filter((image) => !image.startsWith('.'))
-                    .map((image) => ({
-                      src: `/images/moments/${date}/${image}`,
-                    }))
-                }
-
+              data.moments.map(({ date, heading, images }, index) => {
                 return (
                   <li class="flex flex-col items-center gap-y-5">
                     {index > 0 && <div class="h-[12.25rem] w-px bg-gray-fog" />}
