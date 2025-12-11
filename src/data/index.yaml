@@ -2,81 +2,69 @@ header:
   button:
     text: Get to Know Us
     href: https://www.simpsonscarborough.com/
-footer:
-  spotifyButton:
-    url: https://open.spotify.com/playlist/2DH4F0QFixWivEFxGORMzz?si=C3Z4eEIDRSaoABJc64i88g
-    text: 2024 SimpsonScarborough Spotify Playlist
-  callToAction:
-    suffix: And here's your soundtrack to do just that
-    line3: in the world.
-    line2: you want to
-    line1: Do the work
-    prefix: Go forth and
-moments:
-  - date: 2024-01-18
-    heading: We witnessed not tricks, but Illusions at our first (and last) team Magic Show.
-  - date: 2024-02-17
-    heading: Learned of our lore during Founders' Day.
-  - date: 2024-02-28
-    heading: Revamped and reimagined our fifth Higher Ed CMO Study
-  - date: 2024-05-09
-    heading: Reflected, strategized, and energized at the Growth Area Retreat.
-  - date: 2024-06-03
-    heading: Decked out in D.C. for the PMO Retreat.
-  - date: 2024-06-11
-    heading: Redefined community, collaboration, and success at CMOLab.
-  - date: 2024-06-26
-    heading: Did some R&D in ATL at the Research, Analytics & Insights Retreat.
-  - date: 2024-06-27
-    heading: Grew & goal-planned at the People & Culture Retreat.
-  - date: 2024-07-22
-    heading: Bonded IRL at the Interactive Retreat.
-  - date: 2024-07-28
-    heading: Built stronger relationships at the Accounts Retreat.
-  - date: 2024-08-01
-    heading: Problem solved at the Engineering Retreat.
-  - date: 2024-08-12
-    heading: Got insightful in-person at the Strategy Area Retreat.
-  - date: 2024-08-21
-    heading: Cleared our minds and the Rage Room at the Creative Area Retreat.
-  - date: 2024-10-18
-    heading: Went all out all day and night at the All Agency Retreat.
-  - date: 2024-11-10
-    heading: Brought down the house in Vegas at the 2024 AMA.
-quotes:
-  - text: I'm Marcus — I wake up, I put on a v-neck.
-    name: Chelsea Woodard
-    title: Operations
-  - text: Ask GPT what custom GPT is.
-    name: Reya Calistes
-    title: Research, Analytics & Insights
-  - text: Talk soon, your best friend, Steve. <- I won't really sign off my email this way.
-    name: Steve App
-    title: Growth
-  - text: "Used logo guidelines where it's like: 'we'll send someone to your house if you use this wrong'."
-    name: Tim Meyer
-    title: Interactive
-  - text: Not a Ruth's Chris taste with a McDonald's budget.
-    name: Dana Anthony
-    title: Project Management Office
-  - text: Excuse me, I'm very snotty. In many ways.
-    name: Andrea Kruszka
-    title: Accounts
-  - text: She's playing Checkers; I'm playing Call of Duty.
-    name: Rex Stancliff
-    title: Project Management Office
-  - text: A bird pooped on my computer and I have nothing to clean it off.
-    name: Shannon Berg
-    title: Project Management Office
-  - text: I want to be mansplained by you, Corynn. Forever.
-    name: Jason Shough
-    title: Creative
-classNotes:
-  subheading: Who said that? Time to share with the rest of the class.
-  heading: Class Notes
+hero:
+  title: We went
+  subtitle: all out out
+  year: 2024
+  scrollButton:
+    text: Scroll
+    href: '#letter'
+letter:
+  heading: 'A letter from our #1 Jason'
+  quotes:
+    - text: |-
+        In 2024, we started towards a three-year vision based on transforming our agency to be both sought-after and recognized for its results. As we stare down the final weeks of the second year of this vision, it's clear that achieving these goals is just on the horizon. In 2024, we faced challenges head-on and showed up for our clients, the industry, and each other in meaningful ways. And while our work can sometimes feel challenging, our team has shown the kind of grit that makes us exceptional.
+
+        This time last year, our agency felt like it was standing at a crossroads. There were uncertainties to navigate and areas where we knew we needed to grow—not just in what we do, but in how we worked together and partnered with clients. Over the past year, we've closed many of those gaps, building trust and leaning into the strengths that set us apart.
+
+        I say this all the time, but I truly mean it—this year, we've done some of our best work. Our work speaks for itself. We are becoming who we said we would be, despite the challenges and in the midst of a constantly shifting landscape. We've delivered award-winning work, presented top-tier insights, created spaces that resonate with our beloved CMOs, refined our service offerings, optimized our processes, reconnected at our retreat in Chicago, and locked in a clearer sense of direction as we continue to evolve.
+
+        Looking ahead, I see us leaning even further into what makes us extraordinary. At SimpsonScarborough, we don't just meet expectations — we outthink them. We don't just deliver—we outshine. And when the stakes are high, we outdo. These aren't just words; they're the reputation we've built as the gold standard in higher education marketing and branding. In 2025, we'll continue to go all out — refining how we approach our work, taking on bold challenges, and driving results that matter for our clients and for each other.
+
+        Thank you for everything you've brought to the table this year. Your efforts matter, and the impact we're creating together is something to be proud of. I'm grateful to work alongside such a talented and dedicated team, and I'm confident that the best is still ahead.
+      cite: |-
+        Jason Simon
+        Partner & CEO
+  quoteMarks: false
+stats:
+  heading: It Starts With Data
+  subheading: Because of course it does.
+  items:
+    - text: 500k+ Miles Travelled
+      color: sky-blue
+      alignRight: false
+    - text: 754 Tango Cards Sent
+      color: lime-green
+      alignRight: true
+    - text: 17 Special Doorstep Deliveries
+      color: yellow
+      alignRight: false
+    - text: 649 Minutes in All Agency Meetings
+      color: pink
+      alignRight: false
+    - text: 83 Unique Fascinate Archetypes
+      color: coral
+      alignRight: true
+    - text: 14 Promotions
+      color: sky-blue
+      alignRight: false
+    - text: 11 Conferences Attended
+      color: lime-green
+      alignRight: true
+    - text: 2,600+ Registrants for 6 Agency Webinars
+      color: yellow
+      alignRight: false
+    - text: 421 Drink Tickets Distributed
+      color: pink
+      alignRight: false
+map:
+  heading: Anywhere and Everywhere
+  subheading: Our freshman class hails from all over (we all do!)
 freshmen:
+  heading: Class of 2024
   sections:
-    - cards:
+    - heading: Meet the _Fresh_men
+      cards:
         - text: |-
             Murray Simpson
             Vice President, Growth (Growth)
@@ -197,66 +185,6 @@ freshmen:
             Tucson, Arizona
           image:
             src: /images/people/kelsey-lavine.webp
-      heading: Meet the _Fresh_men
-  heading: Class of 2024
-stats:
-  items:
-    - alignRight: false
-      color: sky-blue
-      text: 500k+ Miles Travelled
-    - alignRight: true
-      color: lime-green
-      text: 754 Tango Cards Sent
-    - alignRight: false
-      color: yellow
-      text: 17 Special Doorstep Deliveries
-    - alignRight: false
-      color: pink
-      text: 649 Minutes in All Agency Meetings
-    - alignRight: true
-      color: coral
-      text: 83 Unique Fascinate Archetypes
-    - alignRight: false
-      color: sky-blue
-      text: 14 Promotions
-    - alignRight: true
-      color: lime-green
-      text: 11 Conferences Attended
-    - alignRight: false
-      color: yellow
-      text: 2,600+ Registrants for 6 Agency Webinars
-    - alignRight: false
-      color: pink
-      text: 421 Drink Tickets Distributed
-  subheading: Because of course it does.
-  heading: It Starts With Data
-hero:
-  title: We went
-  subtitle: all out
-  year: 2024
-  scrollButton:
-    text: Scroll
-    href: '#letter'
-letter:
-  heading: 'A letter from our #1 Jason'
-  quoteMarks: false
-  quotes:
-    - text: |-
-        In 2024, we started towards a three-year vision based on transforming our agency to be both sought-after and recognized for its results. As we stare down the final weeks of the second year of this vision, it's clear that achieving these goals is just on the horizon. In 2024, we faced challenges head-on and showed up for our clients, the industry, and each other in meaningful ways. And while our work can sometimes feel challenging, our team has shown the kind of grit that makes us exceptional.
-
-        This time last year, our agency felt like it was standing at a crossroads. There were uncertainties to navigate and areas where we knew we needed to grow—not just in what we do, but in how we worked together and partnered with clients. Over the past year, we've closed many of those gaps, building trust and leaning into the strengths that set us apart.
-
-        I say this all the time, but I truly mean it—this year, we've done some of our best work. Our work speaks for itself. We are becoming who we said we would be, despite the challenges and in the midst of a constantly shifting landscape. We've delivered award-winning work, presented top-tier insights, created spaces that resonate with our beloved CMOs, refined our service offerings, optimized our processes, reconnected at our retreat in Chicago, and locked in a clearer sense of direction as we continue to evolve.
-
-        Looking ahead, I see us leaning even further into what makes us extraordinary. At SimpsonScarborough, we don't just meet expectations — we outthink them. We don't just deliver—we outshine. And when the stakes are high, we outdo. These aren't just words; they're the reputation we've built as the gold standard in higher education marketing and branding. In 2025, we'll continue to go all out — refining how we approach our work, taking on bold challenges, and driving results that matter for our clients and for each other.
-
-        Thank you for everything you've brought to the table this year. Your efforts matter, and the impact we're creating together is something to be proud of. I'm grateful to work alongside such a talented and dedicated team, and I'm confident that the best is still ahead.
-      cite: |-
-        Jason Simon
-        Partner & CEO
-map:
-  heading: Anywhere and Everywhere
-  subheading: Our freshman class hails from all over (we all do!)
 seniors:
   heading: Our Super Seniors
   sections:
@@ -299,9 +227,71 @@ seniors:
         - text: Jason Simon CEO & Partner
           image:
             src: /images/people/jason-simon.webp
+classNotes:
+  heading: Class Notes
+  subheading: Who said that? Time to share with the rest of the class.
+quotes:
+  - text: I'm Marcus — I wake up, I put on a v-neck.
+    name: Chelsea Woodard
+    title: Operations
+  - text: Ask GPT what custom GPT is.
+    name: Reya Calistes
+    title: Research, Analytics & Insights
+  - text: Talk soon, your best friend, Steve. <- I won't really sign off my email this way.
+    name: Steve App
+    title: Growth
+  - text: "Used logo guidelines where it's like: 'we'll send someone to your house if you use this wrong'."
+    name: Tim Meyer
+    title: Interactive
+  - text: Not a Ruth's Chris taste with a McDonald's budget.
+    name: Dana Anthony
+    title: Project Management Office
+  - text: Excuse me, I'm very snotty. In many ways.
+    name: Andrea Kruszka
+    title: Accounts
+  - text: She's playing Checkers; I'm playing Call of Duty.
+    name: Rex Stancliff
+    title: Project Management Office
+  - text: A bird pooped on my computer and I have nothing to clean it off.
+    name: Shannon Berg
+    title: Project Management Office
+  - text: I want to be mansplained by you, Corynn. Forever.
+    name: Jason Shough
+    title: Creative
 yearInReview:
   heading: The Year of We
   description: We clicked in Chicago between meetings and meals. Collaborated with clients across the country. And cringed at the thought of being called on by a magician over Zoom. What a ride.
+moments:
+  - date: 2024-01-18
+    heading: We witnessed not tricks, but Illusions at our first (and last) team Magic Show.
+  - date: 2024-02-17
+    heading: Learned of our lore during Founders' Day.
+  - date: 2024-02-28
+    heading: Revamped and reimagined our fifth Higher Ed CMO Study
+  - date: 2024-05-09
+    heading: Reflected, strategized, and energized at the Growth Area Retreat.
+  - date: 2024-06-03
+    heading: Decked out in D.C. for the PMO Retreat.
+  - date: 2024-06-11
+    heading: Redefined community, collaboration, and success at CMOLab.
+  - date: 2024-06-26
+    heading: Did some R&D in ATL at the Research, Analytics & Insights Retreat.
+  - date: 2024-06-27
+    heading: Grew & goal-planned at the People & Culture Retreat.
+  - date: 2024-07-22
+    heading: Bonded IRL at the Interactive Retreat.
+  - date: 2024-07-28
+    heading: Built stronger relationships at the Accounts Retreat.
+  - date: 2024-08-01
+    heading: Problem solved at the Engineering Retreat.
+  - date: 2024-08-12
+    heading: Got insightful in-person at the Strategy Area Retreat.
+  - date: 2024-08-21
+    heading: Cleared our minds and the Rage Room at the Creative Area Retreat.
+  - date: 2024-10-18
+    heading: Went all out all day and night at the All Agency Retreat.
+  - date: 2024-11-10
+    heading: Brought down the house in Vegas at the 2024 AMA.
 testimonials:
   scheme: dark
   heading: We say we. And for results, clients say SimpsonScarbough. <span class="font-normal">Here's why:</span>
@@ -333,3 +323,13 @@ testimonials:
 
         Thanks to their guidance, the positive changes we've seen in our brand's presence are undeniable. We feel more aligned with our brand and its personality than ever, and SimpsonScarborough's support continues to reinforce our success.
       cite: SoLAcc
+footer:
+  callToAction:
+    prefix: Go forth and
+    line1: Do the work
+    line2: you want to
+    line3: in the world.
+    suffix: And here's your soundtrack to do just that
+  spotifyButton:
+    text: 2024 SimpsonScarborough Spotify Playlist
+    url: https://open.spotify.com/playlist/2DH4F0QFixWivEFxGORMzz?si=C3Z4eEIDRSaoABJc64i88g
