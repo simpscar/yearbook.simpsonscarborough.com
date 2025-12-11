@@ -10,13 +10,14 @@ collections:
   - name: "yearbook"
     label: "Yearbook Content"
     files:
-      - name: "header"
-        label: "Header"
+      - name: "content"
+        label: "All Content"
         file: "src/data/index.yaml"
         fields:
           - label: "Header"
             name: "header"
             widget: "object"
+            collapsed: true
             fields:
               - label: "Button"
                 name: "button"
@@ -24,14 +25,11 @@ collections:
                 fields:
                   - {label: "Text", name: "text", widget: "string", default: "Get to Know Us"}
                   - {label: "URL", name: "href", widget: "string", default: "https://www.simpsonscarborough.com/"}
-      
-      - name: "hero"
-        label: "Hero Section"
-        file: "src/data/index.yaml"
-        fields:
-          - label: "Hero"
+          
+          - label: "Hero Section"
             name: "hero"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Title Line 1", name: "title", widget: "string", hint: "First line (e.g., 'We went')"}
               - {label: "Title Line 2", name: "subtitle", widget: "string", hint: "Second line (e.g., 'all out')"}
@@ -42,14 +40,11 @@ collections:
                 fields:
                   - {label: "Text", name: "text", widget: "string", default: "Scroll"}
                   - {label: "Link", name: "href", widget: "string", default: "#letter"}
-      
-      - name: "letter"
-        label: "CEO Letter"
-        file: "src/data/index.yaml"
-        fields:
-          - label: "Letter"
+          
+          - label: "CEO Letter"
             name: "letter"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Heading", name: "heading", widget: "string"}
               - label: "Quotes"
@@ -58,14 +53,11 @@ collections:
                 fields:
                   - {label: "Text", name: "text", widget: "markdown"}
                   - {label: "Citation", name: "cite", widget: "text"}
-      
-      - name: "stats"
-        label: "Stats"
-        file: "src/data/index.yaml"
-        fields:
+          
           - label: "Stats"
             name: "stats"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Heading", name: "heading", widget: "string", default: "It Starts With Data"}
               - {label: "Subheading", name: "subheading", widget: "string", default: "Because of course it does."}
@@ -76,25 +68,19 @@ collections:
                   - {label: "Stat", name: "text", widget: "string"}
                   - {label: "Color", name: "color", widget: "select", options: [{label: "Sky Blue", value: "sky-blue"}, {label: "Lime Green", value: "lime-green"}, {label: "Yellow", value: "yellow"}, {label: "Pink", value: "pink"}, {label: "Coral", value: "coral"}], hint: "Choose a color for this stat"}
                   - {label: "Align Right", name: "alignRight", widget: "boolean", default: false}
-      
-      - name: "map"
-        label: "Map Section"
-        file: "src/data/index.yaml"
-        fields:
-          - label: "Map"
+          
+          - label: "Map Section"
             name: "map"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Heading", name: "heading", widget: "string"}
               - {label: "Subheading", name: "subheading", widget: "string"}
-      
-      - name: "freshmen"
-        label: "Class of 2024"
-        file: "src/data/index.yaml"
-        fields:
-          - label: "Freshmen"
+          
+          - label: "Class of 2024 (Freshmen)"
             name: "freshmen"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Heading", name: "heading", widget: "string"}
               - label: "Sections"
@@ -112,14 +98,11 @@ collections:
                         widget: "object"
                         fields:
                           - {label: "Image", name: "src", widget: "image"}
-      
-      - name: "seniors"
-        label: "Super Seniors"
-        file: "src/data/index.yaml"
-        fields:
-          - label: "Seniors"
+          
+          - label: "Super Seniors"
             name: "seniors"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Heading", name: "heading", widget: "string"}
               - label: "Sections"
@@ -137,59 +120,44 @@ collections:
                         widget: "object"
                         fields:
                           - {label: "Image", name: "src", widget: "image"}
-      
-      - name: "classNotes"
-        label: "Class Notes"
-        file: "src/data/index.yaml"
-        fields:
+          
           - label: "Class Notes"
             name: "classNotes"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Heading", name: "heading", widget: "string"}
               - {label: "Subheading", name: "subheading", widget: "string"}
-      
-      - name: "quotes"
-        label: "Quotes"
-        file: "src/data/index.yaml"
-        fields:
+          
           - label: "Quotes"
             name: "quotes"
             widget: "list"
+            collapsed: true
             fields:
               - {label: "Quote", name: "text", widget: "text"}
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Title", name: "title", widget: "string"}
-      
-      - name: "yearInReview"
-        label: "Year in Review"
-        file: "src/data/index.yaml"
-        fields:
+          
           - label: "Year in Review"
             name: "yearInReview"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Heading", name: "heading", widget: "string"}
               - {label: "Description", name: "description", widget: "text"}
-      
-      - name: "moments"
-        label: "Moments"
-        file: "src/data/index.yaml"
-        fields:
+          
           - label: "Moments"
             name: "moments"
             widget: "list"
+            collapsed: true
             fields:
               - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false}
               - {label: "Heading", name: "heading", widget: "text"}
-      
-      - name: "testimonials"
-        label: "Testimonials"
-        file: "src/data/index.yaml"
-        fields:
+          
           - label: "Testimonials"
             name: "testimonials"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Color Scheme", name: "scheme", widget: "select", options: ["light", "dark"]}
               - {label: "Heading", name: "heading", widget: "string"}
@@ -199,14 +167,11 @@ collections:
                 fields:
                   - {label: "Quote", name: "text", widget: "markdown"}
                   - {label: "Citation", name: "cite", widget: "string"}
-      
-      - name: "footer"
-        label: "Footer"
-        file: "src/data/index.yaml"
-        fields:
+          
           - label: "Footer"
             name: "footer"
             widget: "object"
+            collapsed: true
             fields:
               - label: "Call to Action"
                 name: "callToAction"
