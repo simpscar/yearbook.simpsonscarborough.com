@@ -173,7 +173,8 @@ collections:
                 widget: "list"
                 required: false
                 hint: "Optional gallery images for this moment"
-                field: {label: "Image", name: "src", widget: "image"}
+                fields:
+                  - {label: "Image Path", name: "src", widget: "image"}
           
           - label: "Testimonials"
             name: "testimonials"
