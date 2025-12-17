@@ -39,45 +39,45 @@ letter:
         Partner & CEO
   quoteMarks: false
 stats:
-  heading: It Starts With Data
-  subheading: Because of course it does.
+  heading: Where the Story Begins
+  subheading: Before the brainstorms, the insight decks, the campus visits, or the big reveals, there’s the data. It’s how we make sense of the moment and decide where to go next.
   items:
-    - text: 500k+ Miles Travelled
+    - text: 726K Miles Travelled
       color: sky-blue
       alignRight: false
-    - text: 754 Tango Cards Sent
+    - text: 1406 Tango Cards Sent
       color: lime-green
       alignRight: true
-    - text: 17 Special Doorstep Deliveries
+    - text: 10 Case Studies Published
       color: yellow
       alignRight: false
-    - text: 649 Minutes in All Agency Meetings
+    - text: 9,358 Zoom Meetings
       color: pink
       alignRight: false
-    - text: 83 Unique Fascinate Archetypes
+    - text: 12 Promotions
       color: coral
       alignRight: true
-    - text: 14 Promotions
+    - text: 1,459,139 Meeting Minutes
       color: sky-blue
       alignRight: false
-    - text: 11 Conferences Attended
+    - text: 13,922 Wrike Tasks
       color: lime-green
       alignRight: true
-    - text: 2,600+ Registrants for 6 Agency Webinars
+    - text: 50 Projects Closed
       color: yellow
       alignRight: false
-    - text: 421 Drink Tickets Distributed
+    - text: 96,181 hours logged  (Did you log your time?)
       color: pink
       alignRight: false
 interludeImage:
   src: /images/interlude.webp
 map:
-  heading: Anywhere and Everywhere
-  subheading: Our freshman class hails from all over (we all do!)
+  heading: New Faces, New Energy
+  subheading: Our team grew, evolved, and learned from the people who chose to build their careers with us in 2025.
 freshmen:
-  heading: Class of 2024
+  heading: New Employees
   sections:
-    - heading: Meet the _Fresh_men
+    - heading: Meet the Class of _2025_
       cards:
         - text: |-
             Murray Simpson
