@@ -3,9 +3,9 @@ header:
     text: Get to Know Us
     href: https://www.simpsonscarborough.com/
 hero:
-  title: We went
-  subtitle: all _out_
-  year: 2024
+  title: '2025: The year'
+  subtitle: of _hope_
+  year: 2025
   scrollButton:
     text: Scroll
     href: '#letter'
