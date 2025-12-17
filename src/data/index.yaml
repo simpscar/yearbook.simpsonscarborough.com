@@ -17,7 +17,7 @@ letter:
     - text: |-
         We started 2025 with big hopes. Coming off a strong 2024, we met in Chicago, strengthened relationships, and placed real belief in what this year could become.  Hope felt earned, reasonable, and it felt shared.
 
-        And then the year began to answer back. 
+        And then the year began to answer back.
 
         That hope met reality.  Uncertainty surfaced. Hard decisions followed. Shifting priorities, real-world constraints, and an unpredictable external landscape added weight to the work. Working fully remote amplified it all. Much of what shaped us felt outside our direct control, and that pressure was unmistakable.
 
@@ -37,6 +37,8 @@ letter:
       cite: |-
         Jason Simon
         Partner & CEO
+    - text: We are the _resistance._
+      cite: ''
   quoteMarks: false
 stats:
   heading: It Starts With Data
