@@ -10,7 +10,7 @@ hero:
   subtitle: of _hope._
   year: 2025
 introImage:
-  src: /images/web banner higher ed deserves bigger ideas.png
+  src: /images/outrageous.png
 letter:
   heading: The Tension of Hope
   quotes:
@@ -401,7 +401,7 @@ testimonials:
         Thanks to their guidance, the positive changes we've seen in our brand's presence are undeniable. We feel more aligned with our brand and its personality than ever, and SimpsonScarborough's support continues to reinforce our success.
       cite: SoLAcc
 footer:
-  image: /images/outro.webp
+  image: /images/web banner higher ed deserves bigger ideas.png
   callToAction:
     prefix: Go forth and
     line1: Do the work
