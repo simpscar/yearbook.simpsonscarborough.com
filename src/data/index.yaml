@@ -336,39 +336,40 @@ moments:
       - src: /images/momentsCMOLab6.png
   - date: ''
     heading: Campus Visits
-    images: []
-  - date: 2024-05-09
-    heading: Reflected, strategized, and energized at the Growth Area Retreat.
     images:
-      - src: /images/moments/2024-05-09/1.webp
-      - src: /images/moments/2024-05-09/2.webp
-      - src: /images/moments/2024-05-09/3.webp
-      - src: /images/moments/2024-05-09/4.webp
-      - src: /images/moments/2024-05-09/5.webp
-  - date: 2024-06-03
-    heading: Decked out in D.C. for the PMO Retreat.
+      - src: /images/11.png
+      - src: /images/14.png
+      - src: /images/16.png
+      - src: /images/13.png
+      - src: /images/15.png
+  - date: ''
+    heading: SimpsonScarborough IRL
     images:
-      - src: /images/moments/2024-06-03/1.webp
-      - src: /images/moments/2024-06-03/2.webp
-  - date: 2024-06-11
-    heading: Redefined community, collaboration, and success at CMOLab.
+      - src: /images/17.png
+      - src: /images/10.png
+      - src: /images/9.png
+      - src: /images/28.png
+      - src: /images/32.png
+  - date: ''
+    heading: Conferences
     images:
-      - src: /images/moments/2024-06-11/1.webp
-      - src: /images/moments/2024-06-11/2.webp
-      - src: /images/moments/2024-06-11/3.webp
-      - src: /images/moments/2024-06-11/4.webp
-      - src: /images/moments/2024-06-11/5.webp
-      - src: /images/moments/2024-06-11/6.webp
-      - src: /images/moments/2024-06-11/7.webp
+      - src: /images/12.png
+      - src: /images/19.png
+  - date: ''
+    heading: Zoom Meeting Fun
+    images:
+      - src: /images/20.png
+      - src: /images/18.png
+      - src: /images/25.png
   - date: 2024-06-26
-    heading: Did some R&D in ATL at the Research, Analytics & Insights Retreat.
+    heading: Pets
     images:
-      - src: /images/moments/2024-06-26/1.webp
-      - src: /images/moments/2024-06-26/2.webp
-      - src: /images/moments/2024-06-26/3.webp
-      - src: /images/moments/2024-06-26/4.webp
-      - src: /images/moments/2024-06-26/5.webp
-  - date: 2024-06-27
+      - src: /images/22.png
+      - src: /images/24.png
+      - src: /images/26.png
+      - src: /images/29.png
+      - src: /images/30.png
+  - date: ''
     heading: Grew & goal-planned at the People & Culture Retreat.
     images:
       - src: /images/moments/2024-06-27/1.webp
@@ -474,4 +475,4 @@ footer:
     suffix: And here's your soundtrack to do just that
   spotifyButton:
     text: 2025 SimpsonScarborough Spotify Playlist
-    url: https://open.spotify.com/playlist/2DH4F0QFixWivEFxGORMzz?si=C3Z4eEIDRSaoABJc64i88g
+    url: https://open.spotify.com/playlist/6sZhNPOVFC5WeS64pKVmmx?si=2e14f1424f7f4560
