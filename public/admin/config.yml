@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
 backend:
   name: github
   repo: simpscar/yearbook.simpsonscarborough.com
@@ -23,191 +24,339 @@ collections:
                 name: "button"
                 widget: "object"
                 fields:
-                  - {label: "Text", name: "text", widget: "string", default: "Get to Know Us"}
-                  - {label: "URL", name: "href", widget: "string", default: "https://www.simpsonscarborough.com/"}
-          
+                  - {
+                      label: "Text",
+                      name: "text",
+                      widget: "string",
+                      default: "Get to Know Us",
+                    }
+                  - {
+                      label: "URL",
+                      name: "href",
+                      widget: "string",
+                      default: "https://www.simpsonscarborough.com/",
+                    }
+
           - label: "Hero Section"
             name: "hero"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Title Line 1", name: "title", widget: "string", hint: "First line (e.g., 'We went')"}
-              - {label: "Title Line 2", name: "subtitle", widget: "string", hint: "Second line (e.g., 'all out')"}
-              - {label: "Year", name: "year", widget: "number", default: 2024, hint: "Year to display (e.g., 2024)"}
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  hint: "Use markdown for italics and line break. 'We went \\_all out\\_\\<br>in 2024.'",
+                }
               - label: "Scroll Button"
                 name: "scrollButton"
                 widget: "object"
                 fields:
-                  - {label: "Text", name: "text", widget: "string", default: "Scroll"}
-                  - {label: "Link", name: "href", widget: "string", default: "#letter"}
-          
+                  - {
+                      label: "Text",
+                      name: "text",
+                      widget: "string",
+                      default: "Scroll",
+                    }
+                  - {
+                      label: "Link",
+                      name: "href",
+                      widget: "string",
+                      default: "#letter",
+                    }
+
           - label: "Intro Image"
             name: "introImage"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Image", name: "src", widget: "image", default: "/images/intro.webp"}
-          
+              - {
+                  label: "Image",
+                  name: "src",
+                  widget: "image",
+                  default: "/images/intro.webp",
+                }
+
           - label: "CEO Letter"
             name: "letter"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Heading", name: "heading", widget: "string"}
+              - { label: "Heading", name: "heading", widget: "string" }
               - label: "Quotes"
                 name: "quotes"
                 widget: "list"
                 fields:
-                  - {label: "Text", name: "text", widget: "markdown"}
-                  - {label: "Citation", name: "cite", widget: "text", required: false, hint: "Optional - leave empty if no signature needed"}
-              - {label: "Show Quote Marks", name: "quoteMarks", widget: "boolean", default: false}
-          
+                  - { label: "Text", name: "text", widget: "markdown" }
+                  - {
+                      label: "Citation",
+                      name: "cite",
+                      widget: "text",
+                      required: false,
+                      hint: "Optional - leave empty if no signature needed",
+                    }
+              - {
+                  label: "Show Quote Marks",
+                  name: "quoteMarks",
+                  widget: "boolean",
+                  default: false,
+                }
+
           - label: "Stats"
             name: "stats"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Heading", name: "heading", widget: "string", default: "It Starts With Data"}
-              - {label: "Subheading", name: "subheading", widget: "string", default: "Because of course it does."}
+              - {
+                  label: "Heading",
+                  name: "heading",
+                  widget: "string",
+                  default: "It Starts With Data",
+                }
+              - {
+                  label: "Subheading",
+                  name: "subheading",
+                  widget: "string",
+                  default: "Because of course it does.",
+                }
               - label: "Items"
                 name: "items"
                 widget: "list"
                 fields:
-                  - {label: "Stat", name: "text", widget: "string"}
-                  - {label: "Color", name: "color", widget: "select", options: [{label: "Sky Blue", value: "sky-blue"}, {label: "Lime Green", value: "lime-green"}, {label: "Yellow", value: "yellow"}, {label: "Pink", value: "pink"}, {label: "Coral", value: "coral"}], hint: "Choose a color for this stat"}
-                  - {label: "Align Right", name: "alignRight", widget: "boolean", default: false}
-          
+                  - { label: "Stat", name: "text", widget: "string" }
+                  - {
+                      label: "Color",
+                      name: "color",
+                      widget: "select",
+                      options:
+                        [
+                          { label: "Sky Blue", value: "sky-blue" },
+                          { label: "Lime Green", value: "lime-green" },
+                          { label: "Yellow", value: "yellow" },
+                          { label: "Pink", value: "pink" },
+                          { label: "Coral", value: "coral" },
+                        ],
+                      hint: "Choose a color for this stat",
+                    }
+                  - {
+                      label: "Align Right",
+                      name: "alignRight",
+                      widget: "boolean",
+                      default: false,
+                    }
+
           - label: "Interlude Image"
             name: "interludeImage"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Image", name: "src", widget: "image", default: "/images/interlude.webp"}
-          
+              - {
+                  label: "Image",
+                  name: "src",
+                  widget: "image",
+                  default: "/images/interlude.webp",
+                }
+
           - label: "Map Section"
             name: "map"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Heading", name: "heading", widget: "string"}
-              - {label: "Subheading", name: "subheading", widget: "string"}
-          
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Subheading", name: "subheading", widget: "string" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                }
+
           - label: "Class of 2024 (Freshmen)"
             name: "freshmen"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Heading", name: "heading", widget: "string"}
+              - { label: "Heading", name: "heading", widget: "string" }
               - label: "Sections"
                 name: "sections"
                 widget: "list"
                 fields:
-                  - {label: "Section Heading", name: "heading", widget: "string"}
+                  - {
+                      label: "Section Heading",
+                      name: "heading",
+                      widget: "string",
+                    }
                   - label: "Cards"
                     name: "cards"
                     widget: "list"
                     fields:
-                      - {label: "Text", name: "text", widget: "text"}
+                      - { label: "Text", name: "text", widget: "text" }
                       - label: "Image"
                         name: "image"
                         widget: "object"
                         fields:
-                          - {label: "Image", name: "src", widget: "image"}
-          
+                          - { label: "Image", name: "src", widget: "image" }
+
           - label: "Super Seniors"
             name: "seniors"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Heading", name: "heading", widget: "string"}
+              - { label: "Heading", name: "heading", widget: "string" }
               - label: "Sections"
                 name: "sections"
                 widget: "list"
                 fields:
-                  - {label: "Section Heading", name: "heading", widget: "string"}
+                  - {
+                      label: "Section Heading",
+                      name: "heading",
+                      widget: "string",
+                    }
                   - label: "Cards"
                     name: "cards"
                     widget: "list"
                     fields:
-                      - {label: "Text", name: "text", widget: "text"}
+                      - { label: "Text", name: "text", widget: "text" }
                       - label: "Image"
                         name: "image"
                         widget: "object"
                         fields:
-                          - {label: "Image", name: "src", widget: "image"}
-          
+                          - { label: "Image", name: "src", widget: "image" }
+
           - label: "Class Notes"
             name: "classNotes"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Heading", name: "heading", widget: "string"}
-              - {label: "Subheading", name: "subheading", widget: "string"}
-          
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Subheading", name: "subheading", widget: "string" }
+
           - label: "Quotes"
             name: "quotes"
             widget: "list"
             collapsed: true
             fields:
-              - {label: "Quote", name: "text", widget: "text"}
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Title", name: "title", widget: "string"}
-          
+              - { label: "Quote", name: "text", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+
           - label: "Year in Review"
             name: "yearInReview"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Heading", name: "heading", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
-          
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
           - label: "Moments"
             name: "moments"
             widget: "list"
             collapsed: true
             fields:
-              - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false}
-              - {label: "Heading", name: "heading", widget: "text"}
+              - {
+                  label: "Date",
+                  name: "date",
+                  required: false,
+                  widget: "datetime",
+                  format: "YYYY-MM-DD",
+                  date_format: "YYYY-MM-DD",
+                  time_format: false,
+                }
+              - {
+                  label: "Heading",
+                  name: "heading",
+                  widget: "text",
+                  required: false,
+                }
               - label: "Images"
                 name: "images"
                 widget: "list"
                 required: false
                 hint: "Optional gallery images for this moment"
                 fields:
-                  - {label: "Image Path", name: "src", widget: "image"}
-          
+                  - { label: "Image Path", name: "src", widget: "image" }
+
           - label: "Testimonials"
             name: "testimonials"
             widget: "object"
             collapsed: true
             fields:
-              - {label: "Color Scheme", name: "scheme", widget: "select", options: ["light", "dark"]}
-              - {label: "Heading", name: "heading", widget: "string"}
+              - {
+                  label: "Color Scheme",
+                  name: "scheme",
+                  widget: "select",
+                  options: ["light", "dark"],
+                }
+              - { label: "Heading", name: "heading", widget: "string" }
               - label: "Quotes"
                 name: "quotes"
                 widget: "list"
                 fields:
-                  - {label: "Quote", name: "text", widget: "markdown"}
-                  - {label: "Citation", name: "cite", widget: "string"}
-          
+                  - { label: "Quote", name: "text", widget: "markdown" }
+                  - { label: "Citation", name: "cite", widget: "string" }
+
           - label: "Footer"
             name: "footer"
             widget: "object"
             collapsed: true
             fields:
+              - label: "Footer image"
+                name: "image"
+                widget: "image"
+                required: false
               - label: "Call to Action"
                 name: "callToAction"
                 widget: "object"
                 collapsed: false
                 fields:
-                  - {label: "Prefix Text", name: "prefix", widget: "string", hint: "Text before the main lines (e.g., 'Go forth and')", default: "Go forth and"}
-                  - {label: "Line 1", name: "line1", widget: "string", hint: "First main line", default: "Do the work"}
-                  - {label: "Line 2", name: "line2", widget: "string", hint: "Second main line", default: "you want to"}
-                  - {label: "Line 3", name: "line3", widget: "string", hint: "Third main line", default: "in the world."}
-                  - {label: "Suffix Text", name: "suffix", widget: "string", hint: "Text after the main lines", default: "And here's your soundtrack to do just that"}
+                  - {
+                      label: "Prefix Text",
+                      name: "prefix",
+                      widget: "string",
+                      hint: "Text before the main lines (e.g., 'Go forth and')",
+                      default: "Go forth and",
+                    }
+                  - {
+                      label: "Line 1",
+                      name: "line1",
+                      widget: "string",
+                      hint: "First main line",
+                      default: "Do the work",
+                    }
+                  - {
+                      label: "Line 2",
+                      name: "line2",
+                      widget: "string",
+                      hint: "Second main line",
+                      default: "you want to",
+                    }
+                  - {
+                      label: "Line 3",
+                      name: "line3",
+                      widget: "string",
+                      hint: "Third main line",
+                      default: "in the world.",
+                    }
+                  - {
+                      label: "Suffix Text",
+                      name: "suffix",
+                      widget: "string",
+                      hint: "Text after the main lines",
+                      default: "And here's your soundtrack to do just that",
+                    }
               - label: "Spotify Button"
                 name: "spotifyButton"
                 widget: "object"
                 fields:
-                  - {label: "Button Text", name: "text", widget: "string", default: "2024 SimpsonScarborough Spotify Playlist"}
-                  - {label: "Spotify URL", name: "url", widget: "string", hint: "Full URL to the Spotify playlist"}
+                  - {
+                      label: "Button Text",
+                      name: "text",
+                      widget: "string",
+                      default: "2024 SimpsonScarborough Spotify Playlist",
+                    }
+                  - {
+                      label: "Spotify URL",
+                      name: "url",
+                      widget: "string",
+                      hint: "Full URL to the Spotify playlist",
+                    }

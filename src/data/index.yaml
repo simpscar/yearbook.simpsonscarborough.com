@@ -3,12 +3,12 @@ header:
     text: Get to Know Us
     href: https://www.simpsonscarborough.com/
 hero:
-  title: The year
-  subtitle: of _hope._
-  year: 2025
+  title: The year _of hope._<br>2025
   scrollButton:
     text: Scroll
     href: '#letter'
+  subtitle: of _hope._
+  year: 2025
 introImage:
   src: /images/intro.webp
 letter:
@@ -72,6 +72,8 @@ interludeImage:
 map:
   heading: Remote-First, People-First
   subheading: This year proved that great work doesn’t need one address. It just needs the right people.
+  image: ''
+  src: ''
 freshmen:
   heading: New Employees
   sections:
@@ -318,13 +320,13 @@ yearInReview:
   heading: The Year of We
   description: We clicked in Chicago between meetings and meals. Collaborated with clients across the country. And cringed at the thought of being called on by a magician over Zoom. What a ride.
 moments:
-  - date: 2025-04-18
-    heading: Brand Refresh
+  - date: ''
+    heading: Heading text
     images:
       - src: /images/moments_brand refresh.png
       - src: /images/moments_all out.png
-  - date: 2024-02-17
-    heading: CMOLab
+  - date: ''
+    heading: Heading text
     images:
       - src: /images/momentsCMOLab2.png
       - src: /images/momentsCMOLab3.png
@@ -332,7 +334,7 @@ moments:
       - src: /images/momentsCMOLab1.png
       - src: /images/momentsCMOLab5.png
       - src: /images/momentsCMOLab6.png
-  - date: 2024-02-28
+  - date: ''
     heading: Campus Visits
     images: []
   - date: 2024-05-09
@@ -463,6 +465,7 @@ testimonials:
         Thanks to their guidance, the positive changes we've seen in our brand's presence are undeniable. We feel more aligned with our brand and its personality than ever, and SimpsonScarborough's support continues to reinforce our success.
       cite: SoLAcc
 footer:
+  image: /images/outro.webp
   callToAction:
     prefix: Go forth and
     line1: Do the work
