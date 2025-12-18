@@ -270,13 +270,20 @@ seniors:
             Project Manager
           image:
             src: /images/Dana Anthony Original.jpg
+    - heading: 5_Years_ of Service
+      cards:
+        - text: |-
+            Sara Wallace
+            Vice President, Strategy
+          image:
+            src: /images/people_Sara Wallace.png
     - heading: 7 _Years_ of Service
       cards:
         - text: |-
             Katie Schwendeman
             Design Director
           image:
-            src: /images/people/jason-simon.webp
+            src: /images/people_Katie Schwendeman.png
 classNotes:
   heading: Class Notes
   subheading: Who said that? Time to share with the rest of the class.
