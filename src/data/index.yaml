@@ -145,7 +145,6 @@ seniors:
         - text: |-
             Murray Simpson
             Senior Vice President, Growth
-            _January_
           image:
             src: /images/people_Murray Simpson.png
         - text: |-
@@ -288,33 +287,33 @@ classNotes:
   heading: Class Notes
   subheading: Who said that? Time to share with the rest of the class.
 quotes:
-  - text: I'm Marcus — I wake up, I put on a v-neck.
-    name: Chelsea Woodard
-    title: Operations
-  - text: Ask GPT what custom GPT is.
-    name: Reya Calistes
+  - text: Hey! Hey! Just ... gentler -y ...
+    name: Chris Huebner
+    title: Strategy
+  - text: Our meeting was quieter than grass growing
+    name: Kevin Beach
     title: Research, Analytics & Insights
-  - text: Talk soon, your best friend, Steve. <- I won't really sign off my email this way.
-    name: Steve App
-    title: Growth
-  - text: "Used logo guidelines where it's like: 'we'll send someone to your house if you use this wrong'."
-    name: Tim Meyer
-    title: Interactive
-  - text: Not a Ruth's Chris taste with a McDonald's budget.
-    name: Dana Anthony
+  - text: We're apocalypse horse people-ing the shit out of this.
+    name: Katie Schwendeman
+    title: Creative
+  - text: I will die on this horse.
+    name: Torre Mower
     title: Project Management Office
-  - text: Excuse me, I'm very snotty. In many ways.
+  - text: Funny story about ornithologists
+    name: Zach Wilke
+    title: Creative
+  - text: I am AI
+    name: Murray Simpson
+    title: Growth
+  - text: There’s those fucking balloons!
     name: Andrea Kruszka
     title: Accounts
-  - text: She's playing Checkers; I'm playing Call of Duty.
-    name: Rex Stancliff
-    title: Project Management Office
-  - text: A bird pooped on my computer and I have nothing to clean it off.
+  - text: l'll be right back. I need to go on the roof and reset the Wi-Fi.
     name: Shannon Berg
     title: Project Management Office
-  - text: I want to be mansplained by you, Corynn. Forever.
-    name: Jason Shough
-    title: Creative
+  - text: We cuss here.
+    name: Eryka Wallace
+    title: People & Culture
 yearInReview:
   heading: The Year of We
   description: We clicked in Chicago between meetings and meals. Collaborated with clients across the country. And cringed at the thought of being called on by a magician over Zoom. What a ride.
