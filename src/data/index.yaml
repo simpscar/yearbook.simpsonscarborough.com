@@ -72,7 +72,7 @@ interludeImage:
 map:
   heading: Remote-First, People-First
   subheading: This year proved that great work doesn’t need one address. It just needs the right people.
-  image: ''
+  image: /images/map.png
   src: ''
 freshmen:
   heading: New Employees
