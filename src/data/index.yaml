@@ -34,13 +34,11 @@ letter:
         So, here’s to 2025: a year that tested our belief and, in doing so, sharpened it. Hope no longer looks like optimism.  It looks like conviction.
 
         The tension will meet us again.  It always does.  The question isn’t whether it will be there in 2026.  The question is, **“Will you stay in the tension long enough to turn the hope into impact?”**
-      cite: |-
-        Jason Simon
-        Partner & CEO
+      cite: — your friends at SimpsonScarborough
   quoteMarks: false
 stats:
-  heading: Where the Story Begins
-  subheading: Before the brainstorms, the insight decks, the campus visits, or the big reveals, there’s the data. It’s how we make sense of the moment and decide where to go next.
+  heading: By the Numbers
+  subheading: Turns out, it all adds up.
   items:
     - text: 726K Miles Travelled
       color: sky-blue
@@ -72,158 +70,139 @@ stats:
 interludeImage:
   src: /images/interlude.webp
 map:
-  heading: New Faces, New Energy
-  subheading: Our team grew, evolved, and learned from the people who chose to build their careers with us in 2025.
+  heading: Remote-First, People-First
+  subheading: This year proved that great work doesn’t need one address. It just needs the right people.
 freshmen:
   heading: New Employees
   sections:
     - heading: Meet the Class of _2025_
       cards:
         - text: |-
-            Murray Simpson
-            Vice President, Growth (Growth)
-            Brooklyn, New York
+            Felicia Berube
+            Senior Project Manager
+            Tennessee
           image:
-            src: /images/people/murray-simpson.webp
+            src: /images/people_Ashlyn Neiffer.png
         - text: |-
-            Griffin Scarborough
-            Junior Analyst (RAI)
-            New York, New York
+            Rachel Meiring
+            Senior Designer
+            Ohio
           image:
-            src: /images/people/griffin-scarborough.webp
+            src: /images/people_Ashlyn Neiffer.png
         - text: |-
-            Kristen Blake
-            Resource Manager (Operations)
-            Hampton, Georgia
+            Amanda Caskey
+            Senior Designer
+            Ohio
           image:
-            src: /images/people/kristen-blake.webp
+            src: /images/people_Ashlyn Neiffer.png
         - text: |-
-            Charles Hall
-            Account Director (Accounts)
-            Astoria, New York
+            Chrissy Mize
+            Senior Writer
+            Oregon
           image:
-            src: /images/people/charles-hall.webp
+            src: /images/people_Ashlyn Neiffer.png
         - text: |-
-            Marchantia Ivey
-            Associate Project Manager (Project Management Office)
-            Brandywine, Maryland
+            Jesse Noviello
+            Ad Operations Specialist 
+            Washington, DC
           image:
-            src: /images/people/marchantia-ivey.webp
+            src: /images/people_Ashlyn Neiffer.png
         - text: |-
-            Jonathan Adams
-            Senior Web Developer (Engineering)
-            Sacramento, California
+            Emily Underwood
+            Media Manager
+            Virginia
           image:
-            src: /images/people/jonathan-adams.webp
+            src: /images/people_Ashlyn Neiffer.png
         - text: |-
-            Katlin Swisher
-            Director, Strategy Planning (Strategy)
-            Morgantown, West Virginia
+            Cain Luke
+            Senior Writer
+            New York
           image:
-            src: /images/people/katlin-swisher.webp
+            src: /images/people_Ashlyn Neiffer.png
         - text: |-
-            Ben Loeffler
-            Solutions Architect (Engineering)
-            Los Angeles, California
+            Trevor Deal
+            Senior Production Designer
+            Florida
           image:
-            src: /images/people/ben-loeffler.webp
+            src: /images/peopleRynnel Laughlin.png
         - text: |-
-            Zach Wilke
-            Senior Art Director (Creative)
-            Columbus, Ohio
+            Rynnel Laughlin
+            Account Director
+            Virginia
           image:
-            src: /images/people/zach-wilke.webp
+            src: /images/peopleRynnel Laughlin.png
         - text: |-
-            Mandy Howard
-            Senior Project Manager (Project Management Office)
-            Smyrna, Georgia
+            Becki Murison
+            Associate Director, Media
+            North Carolina
           image:
-            src: /images/people/mandy-howard.webp
-        - text: |-
-            Joe Taphorn
-            Media Manager (Strategy)
-            Greenville, South Carolina
-          image:
-            src: /images/people/joe-taphorn.webp
-        - text: |-
-            Bilal Sheik
-            Senior Writer (Creative)
-            Knoxville, Tennessee
-          image:
-            src: /images/people/bilal-sheik.webp
-        - text: |-
-            Fred Demarest
-            Director, Partnerships (Growth)
-            Cary, North Carolina
-          image:
-            src: /images/people/fred-demarest.webp
-        - text: |-
-            Kristen Tiernan
-            Associate Project Manager (Project Management Office)
-            Simpsonville, South Carolina
-          image:
-            src: /images/people/kristen-tiernan.webp
-        - text: |-
-            Keith Warburg
-            Account Director (Accounts)
-            Hahira, Georgia
-          image:
-            src: /images/people/keith-warburg.webp
-        - text: |-
-            Arham Anwar
-            Data Analyst (RAI)
-            New Market, Maryland
-          image:
-            src: /images/people/arham-anwar.webp
-        - text: |-
-            Chase Corey
-            Partnerships Manager (Growth)
-            Winter Park, Florida
-          image:
-            src: /images/people/chase-corey.webp
-        - text: |-
-            Jaemi Graham
-            Senior Project Manager (Project Management Office)
-            Kennesaw, Georgia
-          image:
-            src: /images/people/jaemi-graham.webp
-        - text: |-
-            Ashlyn Neiffer
-            Senior Designer (Growth)
-            Lansdale, Pennsylvania
-          image:
-            src: /images/people/ashlyn-neiffer.webp
-        - text: |-
-            Kelsey Lavine
-            Senior UI Designer (Interactive)
-            Tucson, Arizona
-          image:
-            src: /images/people/kelsey-lavine.webp
+            src: /images/peopleRynnel Laughlin.png
 seniors:
-  heading: Our Super Seniors
+  heading: Years of Service
   sections:
-    - heading: 5 _Years_ of Service
+    - heading: 1 _Year_ of Service
       cards:
         - text: |-
-            Dan Moore
-            Senior UX Designer
+            Murray Simpson
+            Senior Vice President, Growth
+            _January_
           image:
-            src: /images/people/dan-moore.webp
+            src: /images/people_Murray Simpson.png
         - text: |-
-            Bob Rafferty
-            Executive Vice President & Partner
+            Griffin Scarborough
+            Junior Research Analyst
           image:
-            src: /images/people/bob-rafferty.webp
+            src: /images/peopleGriffin Scarborough.png
         - text: |-
-            Julia Cwynar
+            Jonathan Adams
+            Senior Web Designer
+          image:
+            src: /images/people_Jonathan Adams.png
+        - text: |-
+            Katlin Swisher
+            Director, Strategy Planning
+          image:
+            src: /images/people_Katlin Swisher.png
+        - text: |-
+            Zach Wilke
+            Senior Art Director
+          image:
+            src: /images/people_Zach Wike.png
+        - text: |-
+            Ben Loeffler
+            Director, Digital Experience
+          image:
+            src: /images/people_Ben oeffler.png
+        - text: |-
+            Joe Taphorn
+            Media Manager
+          image:
+            src: /images/people_Joe Taphorn.png
+        - text: |-
+            Mandy Howard
+            Associate Director, PMO
+          image:
+            src: /images/people_Mandyy. Howard.png
+        - text: |-
+            Chase Corey
+            Partnerships Manager
+          image:
+            src: /images/people_Chase Corey.png
+        - text: |-
+            Kristen Tiernan
             Project Manager
           image:
-            src: /images/people/julia-cwynar.webp
+            src: /images/people_Kristen Tiernan.png
         - text: |-
-            Marguerite Moore
-            Associate Director, Brand & Integrated Strategy
+            Kelsey Lavine
+            Senior UI Designer
           image:
-            src: /images/people/marguerite-moore.webp
+            src: /images/people_Kelsey Lavine.png
+        - text: |-
+            Ashlyn Neiffer
+            Senior Designer
+          image:
+            src: /images/people_Ashlyn Neiffer.png
     - heading: 7 _Years_ of Service
       cards:
         - text: |-
