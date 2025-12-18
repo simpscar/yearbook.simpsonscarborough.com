@@ -3,14 +3,14 @@ header:
     text: Get to Know Us
     href: https://www.simpsonscarborough.com/
 hero:
-  title: The year _of hope._<br>2025
+  title: The year _of outrage._<br>2025
   scrollButton:
     text: Scroll
     href: '#letter'
   subtitle: of _hope._
   year: 2025
 introImage:
-  src: /images/outrageous.png
+  src: /images/outrageous (1).png
 letter:
   heading: The Tension of Hope
   quotes:
