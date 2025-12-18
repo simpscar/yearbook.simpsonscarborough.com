@@ -118,7 +118,7 @@ freshmen:
             Senior Writer
             New York
           image:
-            src: /images/people_Ashlyn Neiffer.png
+            src: /images/peopleCain Luke.png
         - text: |-
             Trevor Deal
             Senior Production Designer
@@ -318,16 +318,20 @@ yearInReview:
   heading: The Year of We
   description: We clicked in Chicago between meetings and meals. Collaborated with clients across the country. And cringed at the thought of being called on by a magician over Zoom. What a ride.
 moments:
-  - date: 2024-01-18
-    heading: We witnessed not tricks, but Illusions at our first (and last) team Magic Show.
+  - date: 2025-04-18
+    heading: A refreshed identity, a sharper voice, and a story that reflects who we are today — built for higher ed, and built to last.
     images:
-      - src: /images/moments/2024-01-18/AG+Magician.jpg
-      - src: /images/moments/2024-01-18/Untitled design.webp
+      - src: /images/moments_brand refresh.png
+      - src: /images/moments_all out.png
   - date: 2024-02-17
-    heading: Learned of our lore during Founders' Day.
+    heading: 'CMOLab: We brought insights abd strategy straight to the desks of CMOs navigating rapid change.'
     images:
-      - src: /images/moments/2024-02-17/1.webp
-      - src: /images/moments/2024-02-17/2.webp
+      - src: /images/momentsCMOLab2.png
+      - src: /images/momentsCMOLab3.png
+      - src: /images/momentsCMOLab4.png
+      - src: /images/momentsCMOLab1.png
+      - src: /images/momentsCMOLab5.png
+      - src: /images/momentsCMOLab6.png
   - date: 2024-02-28
     heading: Revamped and reimagined our fifth Higher Ed CMO Study
     images:
