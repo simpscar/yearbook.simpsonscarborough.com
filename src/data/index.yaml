@@ -203,21 +203,78 @@ seniors:
             Senior Designer
           image:
             src: /images/people_Ashlyn Neiffer.png
+    - heading: 3 _Years_ of Service
+      cards:
+        - text: |-
+            Steve App
+            Associate Vice President, Partnerships
+          image:
+            src: /images/people_Steve App.png
+        - text: |-
+            Kelsi Kao
+            Creative Traffic Manager
+          image:
+            src: /images/people_Kelsi Kao.png
+        - text: |-
+            Shannon Berg
+            Senior Project Manager
+          image:
+            src: /images/people_Shannon Berg.png
+        - text: |-
+            Carrie Barnett
+            Director, Marketing
+          image:
+            src: /images/people_Carrie Barnett.png
+        - text: |-
+            Corynn Myers
+            Associate Vice President, Strategy Planning
+          image:
+            src: /images/people_Corynn Myers.png
+        - text: |-
+            John Sokorai
+            Associate Creative Director, Design
+          image:
+            src: /images/people_John Sokorai.png
+        - text: |-
+            Jason Gonzales
+            Creative Director
+          image:
+            src: /images/people_Jason Gonzales.png
+        - text: |-
+            Tim Jones
+            Director, Strategy Planning
+          image:
+            src: /images/people_Tim Jones.png
+        - text: |-
+            Amber Koski
+            Senior Designer
+          image:
+            src: /images/people_Amber Koski.png
+        - text: |-
+            Danielle Greenidge
+            Vice President, People & Culture
+          image:
+            src: /images/people_Danielle Greenidge.png
+        - text: |-
+            Torre Mower
+            Associate Director, PMO
+          image:
+            src: /images/people_Torre Mower.png
+        - text: |-
+            Kevin Beach 
+            Research Quality & Compliance Manager
+          image:
+            src: /images/people_Kevin Beach.png
+        - text: |-
+            Dana Anthony
+            Project Manager
+          image:
+            src: /images/Dana Anthony Original.jpg
     - heading: 7 _Years_ of Service
       cards:
         - text: |-
-            Sara Abtahi
-            Research Analyst
-          image:
-            src: /images/people/sara-abtahi.webp
-        - text: |-
-            Hira Siddiqui
-            Associate Director, Research
-          image:
-            src: /images/people/hira-siddiqui.webp
-    - heading: 10 _Years_ of Service
-      cards:
-        - text: Jason Simon CEO & Partner
+            Katie Schwendeman
+            Design Director
           image:
             src: /images/people/jason-simon.webp
 classNotes:
