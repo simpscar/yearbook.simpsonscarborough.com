@@ -82,19 +82,19 @@ freshmen:
             Senior Project Manager
             Tennessee
           image:
-            src: /images/people_Ashlyn Neiffer.png
+            src: /images/people_Felicia Berube.png
         - text: |-
             Rachel Meiring
             Senior Designer
             Ohio
           image:
-            src: /images/people_Ashlyn Neiffer.png
+            src: /images/people_Rachel Meiring.png
         - text: |-
             Amanda Caskey
             Senior Designer
             Ohio
           image:
-            src: /images/people_Ashlyn Neiffer.png
+            src: /images/people_Amanda Caskey.png
         - text: |-
             Chrissy Mize
             Senior Writer
@@ -112,7 +112,7 @@ freshmen:
             Media Manager
             Virginia
           image:
-            src: /images/people_Ashlyn Neiffer.png
+            src: /images/people_Emily Underwood.png
         - text: |-
             Cain Luke
             Senior Writer
@@ -124,7 +124,7 @@ freshmen:
             Senior Production Designer
             Florida
           image:
-            src: /images/peopleRynnel Laughlin.png
+            src: /images/people_Trevor Deal.png
         - text: |-
             Rynnel Laughlin
             Account Director
@@ -136,7 +136,7 @@ freshmen:
             Associate Director, Media
             North Carolina
           image:
-            src: /images/peopleRynnel Laughlin.png
+            src: /images/people_Becki Murison.png
 seniors:
   heading: Years of Service
   sections:
