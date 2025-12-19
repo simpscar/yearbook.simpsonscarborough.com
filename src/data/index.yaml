@@ -317,7 +317,7 @@ quotes:
     name: Eryka Wallace
     title: People & Culture
 yearInReview:
-  heading: The Year of We
+  heading: Through the Tension
   description: We clicked in Chicago between meetings and meals. Collaborated with clients across the country. And cringed at the thought of being called on by a magician over Zoom. What a ride.
 moments:
   - date: ''
@@ -394,12 +394,12 @@ testimonials:
         Also, your designs are SUBLIME; if the final iterations are anything like the look & feel of your website, then I will DEFINITELY want to be a part of our focus groups to come!
       cite: East Carolina University
     - text: |-
-        Thank you SO much.  I'm really excited to work in a new landscape, although I don't think this is going to be simple anywhere, for much the same reason that I've faced challenges here.  
+        Thank you SO much.  I'm really excited to work in a new landscape, although I don't think this is going to be simple anywhere, for much the same reason that I've faced challenges here.
 
         You were a critical part of our advancement here.  And there is certainly a need for engagement on this issue at my new institution.  I won't forget the fine work you did.
       cite: Boise State University
 footer:
-  image: /images/web banner higher ed deserves bigger ideas.png
+  image: /images/Outshine - banner.png
   callToAction:
     prefix: Go forth and
     line1: Do the work
