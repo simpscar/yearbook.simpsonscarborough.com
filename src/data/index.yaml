@@ -321,12 +321,12 @@ yearInReview:
   description: We clicked in Chicago between meetings and meals. Collaborated with clients across the country. And cringed at the thought of being called on by a magician over Zoom. What a ride.
 moments:
   - date: ''
-    heading: Heading text
+    heading: Brand Refresh
     images:
       - src: /images/moments_brand refresh.png
       - src: /images/moments_all out.png
   - date: ''
-    heading: Heading text
+    heading: CMOLab
     images:
       - src: /images/momentsCMOLab2.png
       - src: /images/momentsCMOLab3.png
@@ -369,6 +369,9 @@ moments:
       - src: /images/26.png
       - src: /images/29.png
       - src: /images/30.png
+  - date: ''
+    heading: ''
+    images: []
 testimonials:
   scheme: dark
   heading: We say we. And for results, clients say SimpsonScarbough. <span class="font-normal">Here's why:</span>
