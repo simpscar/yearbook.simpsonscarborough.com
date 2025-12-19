@@ -3,7 +3,7 @@ header:
     text: Get to Know Us
     href: https://www.simpsonscarborough.com/
 hero:
-  title: The Year of<br>_resistance._
+  title: 2025:<br>The year of_resistance._
   scrollButton:
     text: Scroll
     href: '#letter'
@@ -365,12 +365,16 @@ moments:
       - src: /images/28.png
       - src: /images/32.png
   - date: ''
-    heading: Conferences & Webinars
+    heading: Conferences & Webinars & Awards
     images:
+      - src: /images/conf _ AMA.png
       - src: /images/12.png
       - src: /images/19.png
-      - src: /images/conf _ AMA.png
       - src: /images/webinar_ web and marketing.png
+      - src: /images/award_ 2.png
+      - src: /images/award_3.png
+      - src: /images/74.png
+      - src: /images/awards.png
   - date: ''
     heading: Thought Leadership
     images:
