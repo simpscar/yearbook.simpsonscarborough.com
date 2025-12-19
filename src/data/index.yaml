@@ -371,7 +371,7 @@ moments:
       - src: /images/9.png
       - src: /images/32.png
   - date: ''
-    heading: Conferences & Webinars & Awards
+    heading: Conferences, Webinars & Awards
     images:
       - src: /images/conf _ AMA.png
       - src: /images/12.png
@@ -393,7 +393,7 @@ moments:
       - src: /images/thought_ Katlin.png
       - src: /images/thought_ Shough.png
   - date: ''
-    heading: Our Unofficial Coworkers
+    heading: Our Officemates
     images:
       - src: /images/26.png
       - src: /images/24.png
@@ -406,6 +406,15 @@ moments:
       - src: /images/pet_3.png
       - src: /images/pet_5.png
       - src: /images/pet_4.png
+  - date: ''
+    heading: Outshine Magazine
+    images:
+      - src: /images/outshine_ 1.png
+      - src: /images/outshine_ 2.png
+      - src: /images/outshine_ 5.png
+      - src: /images/outshine_ 3.png
+      - src: /images/outshine_ 4.png
+      - src: /images/outshine_ 7.png
 testimonials:
   scheme: dark
   heading: Results speak. Outcomes matter. Don't believe us?  <span class="font-normal">See what our clients said.</span>
