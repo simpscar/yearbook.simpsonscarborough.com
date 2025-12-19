@@ -325,6 +325,7 @@ moments:
     images:
       - src: /images/moments_brand refresh.png
       - src: /images/moments_all out.png
+      - src: /images/brand_ IG.png
   - date: ''
     heading: CMOLab
     images:
@@ -335,13 +336,16 @@ moments:
       - src: /images/momentsCMOLab5.png
       - src: /images/momentsCMOLab6.png
   - date: ''
-    heading: Campus Visits
+    heading: On Campus
     images:
-      - src: /images/11.png
-      - src: /images/14.png
-      - src: /images/16.png
-      - src: /images/13.png
-      - src: /images/15.png
+      - src: /images/visit_ Albertus.png
+      - src: /images/visit_ Boise.png
+      - src: /images/visit_ BTS SMSU.png
+      - src: /images/visit_ BTS Temple.png
+      - src: /images/visit_ ECU.png
+      - src: /images/visit_ FSU.png
+      - src: /images/visit_ NDSU.png
+      - src: /images/visit_ OSU.png
   - date: ''
     heading: SimpsonScarborough IRL
     images:
@@ -351,12 +355,14 @@ moments:
       - src: /images/28.png
       - src: /images/32.png
   - date: ''
-    heading: Conferences
+    heading: Conferences & Webinars
     images:
       - src: /images/12.png
       - src: /images/19.png
+      - src: /images/conf _ AMA.png
+      - src: /images/webinar_ web and marketing.png
   - date: ''
-    heading: Zoom Meeting Fun
+    heading: In Meetings
     images:
       - src: /images/20.png
       - src: /images/18.png
@@ -372,6 +378,17 @@ moments:
   - date: ''
     heading: ''
     images: []
+  - date: ''
+    heading: Thought Leadership
+    images:
+      - src: /images/thought_ Sara.png
+      - src: /images/thought_ Chris.png
+      - src: /images/thought _ Bob.png
+      - src: /images/thought_ Simon.png
+      - src: /images/thought_ Shough (2).png
+      - src: /images/thought_ SimpScar.png
+      - src: /images/thought_ Katlin.png
+      - src: /images/thought_ Shough.png
 testimonials:
   scheme: dark
   heading: Results speak. Outcomes matter. Don't believe us?  <span class="font-normal">See what our clients said.</span>
