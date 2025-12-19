@@ -401,6 +401,11 @@ moments:
       - src: /images/30.png
       - src: /images/29.png
       - src: /images/31.png
+      - src: /images/pet_1.png
+      - src: /images/pet_2.png
+      - src: /images/pet_3.png
+      - src: /images/pet_5.png
+      - src: /images/pet_4.png
 testimonials:
   scheme: dark
   heading: Results speak. Outcomes matter. Don't believe us?  <span class="font-normal">See what our clients said.</span>
