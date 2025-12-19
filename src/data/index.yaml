@@ -374,35 +374,30 @@ moments:
     images: []
 testimonials:
   scheme: dark
-  heading: We say we. And for results, clients say SimpsonScarbough. <span class="font-normal">Here's why:</span>
+  heading: Results speak. Outcomes matter. Don't believe us?  <span class="font-normal">See what our clients said.</span>
   quotes:
-    - text: Truly, I AM BLOWN AWAY. This is exactly where we need to be. Thank you for taking all of the feedback and incorporating it, you guys absolutely killed it. It's all coming together.
-      cite: University of North Florida
-    - text: |-
-        We have received SO many compliments on the branding – visual and messaging – which has been really great and I wanted to pass along of course.
-
-        But I also have to tell you how very much fun it was to take these things we worked on together and bring them to the world. It was incredibly fulfilling and meaningful to me professionally so thank you all for your great work – for giving us something to put out there we can be so proud of!
-      cite: University of Montana Foundation
+    - text: We now have a brand platform that reflects who we are, honors our history, and positions SHSU for a bold future.
+      cite: Sam Houston State University
+    - text: Every one of our key constituencies felt heard and could see their input reflected in the final products.
+      cite: Bryn Mawr College
     - text: I'm really, really pleased. There is a lot to love here (no pun intended)...It's really creative and pushing beyond the stale stuff you see in higher ed"
       cite: University of Colorado
     - text: The way you reframed some of the challenges for us is so helpful. It's great to see our SEO work is working!
       cite: GW Nursing
-    - text: The brand anthem video is just brilliant and beautiful. All the campus community loved it. From my standpoint, this will definitely stand out in the sea of sameness.
-      cite: Baylor University
-    - text: You all captured as much feedback as you possibly could to get here. Two thumbs up from me.
-      cite: Cal State Channel Islands
+    - text: I can only say the presentation was a resounding success. Hieu and the five other VPs did a joint presentation on the comprehensive campaign pillars and messaging...The comments and questions afterward were essentially a standing ovation. This resonated so, so well. Thank you all for your incredible work on this!!
+      cite: Reed College
+    - text: What an upgrade to have work with SimpsonScarborough!!!  It seemed like the new campaign strategy and materials were well received
+      cite: Oklahoma State University
     - text: |-
-        You hit the ball out of the park — what that means is you brought branding, vision, and a major fundraising campaign into a coordinated effort. Something not easily accomplished in this space.
+        Too, I appreciate the safe space to express passions with candor & enthusiasm.  I believe respect & care come best by honesty, & your company's culture clearly welcomes openness & enthusiasm.
 
-        When the Provost (and other academics) starts speaking in brand language and dropping, 'Look to Michigan' into their talk tracks, you've hit a grand slam.
-      cite: University of Michigan
-    - text: I couldn't be more pleased with the outcomes from our branding engagement. We have a new way of expressing the Emory brand that feels natural and authentic to our internal stakeholders…I knew immediately we had hit on something special.
-      cite: Emory University
+        Also, your designs are SUBLIME; if the final iterations are anything like the look & feel of your website, then I will DEFINITELY want to be a part of our focus groups to come!
+      cite: East Carolina University
     - text: |-
-        Working with SimpsonScarborough has been a transformative experience for our college. Their attentiveness to our feedback and willingness to incorporate every nuance of our brand vision made them feel less like an agency and more like a trusted partner who had worked with us for years.
+        Thank you SO much.  I'm really excited to work in a new landscape, although I don't think this is going to be simple anywhere, for much the same reason that I've faced challenges here.  
 
-        Thanks to their guidance, the positive changes we've seen in our brand's presence are undeniable. We feel more aligned with our brand and its personality than ever, and SimpsonScarborough's support continues to reinforce our success.
-      cite: SoLAcc
+        You were a critical part of our advancement here.  And there is certainly a need for engagement on this issue at my new institution.  I won't forget the fine work you did.
+      cite: Boise State University
 footer:
   image: /images/web banner higher ed deserves bigger ideas.png
   callToAction:
