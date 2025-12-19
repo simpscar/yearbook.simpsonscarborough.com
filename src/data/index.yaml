@@ -66,6 +66,9 @@ stats:
       alignRight: false
     - text: 96,181 hours logged  (Did you log your time?)
       color: pink
+      alignRight: true
+    - text: 4 Belt Buckle Winners
+      color: lime-green
       alignRight: false
 interludeImage:
   src: /images/banner .png
@@ -310,7 +313,7 @@ quotes:
   - text: There’s those fucking balloons!
     name: Andrea Kruszka
     title: Accounts
-  - text: l'll be right back. I need to go on the roof and reset the Wi-Fi.
+  - text: I'll be right back. I need to go on the roof and reset the Wi-Fi.
     name: Shannon Berg
     title: Project Management Office
   - text: We cuss here.
