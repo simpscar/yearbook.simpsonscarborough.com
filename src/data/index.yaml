@@ -327,6 +327,16 @@ moments:
       - src: /images/moments_all out.png
       - src: /images/brand_ IG.png
   - date: ''
+    heading: Our Work
+    images:
+      - src: /images/case study_ Bryn Mawr.png
+      - src: /images/case study_ Buffalo.png
+      - src: /images/case study_ ISU.png
+      - src: /images/case study_ CSU.png
+      - src: /images/case study_ Emory.png
+      - src: /images/case study_ Colorado.png
+      - src: /images/case study_ SHSU.png
+  - date: ''
     heading: CMOLab
     images:
       - src: /images/momentsCMOLab2.png
@@ -362,23 +372,6 @@ moments:
       - src: /images/conf _ AMA.png
       - src: /images/webinar_ web and marketing.png
   - date: ''
-    heading: In Meetings
-    images:
-      - src: /images/20.png
-      - src: /images/18.png
-      - src: /images/25.png
-  - date: ''
-    heading: Our Furry Friends
-    images:
-      - src: /images/22.png
-      - src: /images/24.png
-      - src: /images/26.png
-      - src: /images/29.png
-      - src: /images/30.png
-  - date: ''
-    heading: ''
-    images: []
-  - date: ''
     heading: Thought Leadership
     images:
       - src: /images/thought_ Sara.png
@@ -389,6 +382,14 @@ moments:
       - src: /images/thought_ SimpScar.png
       - src: /images/thought_ Katlin.png
       - src: /images/thought_ Shough.png
+  - date: ''
+    heading: Our Unofficial Coworkers
+    images:
+      - src: /images/22.png
+      - src: /images/24.png
+      - src: /images/26.png
+      - src: /images/29.png
+      - src: /images/30.png
 testimonials:
   scheme: dark
   heading: Results speak. Outcomes matter. Don't believe us?  <span class="font-normal">See what our clients said.</span>
