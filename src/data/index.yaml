@@ -323,9 +323,12 @@ moments:
   - date: ''
     heading: Brand Refresh
     images:
-      - src: /images/moments_brand refresh.png
       - src: /images/moments_all out.png
+      - src: /images/brand_ 7.png
+      - src: /images/moments_brand refresh.png
       - src: /images/brand_ IG.png
+      - src: /images/brand_ 2.png
+      - src: /images/brand_ 6.png
   - date: ''
     heading: Our Work
     images:
@@ -341,10 +344,12 @@ moments:
     images:
       - src: /images/momentsCMOLab2.png
       - src: /images/momentsCMOLab3.png
+      - src: /images/cmolab_ 1.png
       - src: /images/momentsCMOLab4.png
       - src: /images/momentsCMOLab1.png
       - src: /images/momentsCMOLab5.png
       - src: /images/momentsCMOLab6.png
+      - src: /images/cmolab_ 2.png
   - date: ''
     heading: On Campus
     images:
@@ -359,10 +364,11 @@ moments:
   - date: ''
     heading: SimpsonScarborough IRL
     images:
+      - src: /images/person_ 3.png
+      - src: /images/28.png
       - src: /images/17.png
       - src: /images/10.png
       - src: /images/9.png
-      - src: /images/28.png
       - src: /images/32.png
   - date: ''
     heading: Conferences & Webinars & Awards
