@@ -395,11 +395,12 @@ moments:
   - date: ''
     heading: Our Unofficial Coworkers
     images:
-      - src: /images/22.png
-      - src: /images/24.png
       - src: /images/26.png
-      - src: /images/29.png
+      - src: /images/24.png
+      - src: /images/22.png
       - src: /images/30.png
+      - src: /images/29.png
+      - src: /images/31.png
 testimonials:
   scheme: dark
   heading: Results speak. Outcomes matter. Don't believe us?  <span class="font-normal">See what our clients said.</span>
