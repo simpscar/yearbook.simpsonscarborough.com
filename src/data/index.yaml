@@ -15,15 +15,15 @@ letter:
   heading: The Tension of Hope
   quotes:
     - text: |-
-        We started 2025 with big hopes. Coming off a strong 2024, we met in Chicago, strengthened relationships, and placed real belief in what this year could become.  Hope felt earned, reasonable, and it felt shared.
+        We started 2025 with big hopes. Coming off a strong 2024, we met in Chicago, strengthened relationships, and placed real belief in what this year could become. Hope felt earned, reasonable, and it felt shared.
 
         And then the year began to answer back.
 
-        That hope met reality.  Uncertainty surfaced. Hard decisions followed. Shifting priorities, real-world constraints, and an unpredictable external landscape added weight to the work. Working fully remote amplified it all. Much of what shaped us felt outside our direct control, and that pressure was unmistakable.
+        That hope met reality. Uncertainty surfaced. Hard decisions followed. Shifting priorities, real-world constraints, and an unpredictable external landscape added weight to the work. Working fully remote amplified it all. Much of what shaped us felt outside our direct control, and that pressure was unmistakable.
 
-        We weren’t just moving through a new year.  We were being tested.
+        We weren’t just moving through a new year. We were being tested.
 
-        At its core, our work is belief – belief in higher education, in its impact, and in its potential to transform lives. And belief, we learned this year, isn’t something you simply hold. It’s something you test.  Belief lives in the space between aspiration and reality.  Between what we hope for and what’s actually possible.  Sometimes you fall short. Sometimes you surprise yourself. And sometimes you realize you could have aimed higher. That space is _tension_.
+        At its core, our work is belief – belief in higher education, in its impact, and in its potential to transform lives. And belief, we learned this year, isn’t something you simply hold. It’s something you test. Belief lives in the space between aspiration and reality.  Between what we hope for and what’s actually possible. Sometimes you fall short. Sometimes you surprise yourself. And sometimes you realize you could have aimed higher. That space is _tension_.
 
         And tension, while uncomfortable, is where growth happens. Growth doesn’t always _feel_ good, but it does something essential. It strengthened our belief. This year asked more of us: more trust in each other, more intentional in our decisions, and more courage than felt comfortable. We learned that hope won’t always look like reassurance or ease. Sometimes it looks like resistance.
 
@@ -64,12 +64,12 @@ stats:
     - text: 50 Projects Closed
       color: yellow
       alignRight: false
-    - text: 96,181 hours logged  (Did you log your time?)
-      color: pink
-      alignRight: true
     - text: 4 Belt Buckle Winners
       color: lime-green
       alignRight: false
+    - text: 96,181 hours logged  (Did you log your time?)
+      color: pink
+      alignRight: true
 interludeImage:
   src: /images/banner .png
 map:
