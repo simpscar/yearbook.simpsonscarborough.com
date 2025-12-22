@@ -40,7 +40,7 @@ stats:
   heading: By the Numbers
   subheading: Turns out, it all adds up.
   items:
-    - text: 726K Miles Travelled
+    - text: 726K Miles Traveled
       color: sky-blue
       alignRight: false
     - text: 1406 Tango Cards Sent
